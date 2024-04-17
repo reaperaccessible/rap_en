@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index version="1" name="ReaperAccessible Scripts US" commit="67d1b705fd68e0026057511a4040f1d0885bb3da">
+  <category name="extensions">
+    <reapack name="js_api_reascript.ext" type="extension" desc="Complementary API for ReaScript">
+      <metadata>
+        <link rel="website">https://github.com/ReaperAccessible/rap_en/raw/main/dlls</link>
+      </metadata>
+      <version name="1.0" author="ReaperAccessible" time="2024-04-17T12:16:49Z">
+        <source platform="win64" file="reaper_js_ReaScriptAPI64.dll">https://github.com/ReaperAccessible/rap_en/raw/main/dlls/reaper_js_ReaScriptAPI64.dll</source>
+      </version>
+    </reapack>
+  </category>
+</index>
