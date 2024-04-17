@@ -1,6 +1,7 @@
 -- @description Displays a menu containing different automation actions
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=main] .
 
 gfx.init()
 

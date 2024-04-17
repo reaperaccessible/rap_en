@@ -1,6 +1,7 @@
 ﻿-- @Description Edit volume of all selected tracks
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessilbe
+-- @provides [main=main] .
 
 
 local CountSelTrack = reaper.CountSelectedTracks(0)

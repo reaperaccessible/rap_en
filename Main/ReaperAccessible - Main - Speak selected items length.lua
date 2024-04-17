@@ -2,6 +2,7 @@
 -- Version 1.0 - April 2021
 -- Announces the sum of all selected item lengths items
 -- Chris Goodwin, taking from a script by Pete Torpey 
+-- @provides [main=main] .
 
 function Speak( str )
  if reaper.osara_outputMessage then

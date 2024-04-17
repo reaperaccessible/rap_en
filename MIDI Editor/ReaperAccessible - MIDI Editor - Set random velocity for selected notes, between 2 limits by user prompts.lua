@@ -1,6 +1,7 @@
 -- @Description Set random velocity for selected notes, between 2 limits by user prompts
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=midi_editor] .
 
 
 reaper.Undo_BeginBlock()

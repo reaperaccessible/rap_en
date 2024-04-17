@@ -1,6 +1,7 @@
 -- @Description: Set selection end point of area to remove from selected tracks
 -- @version 1.0
 -- @author Lee JULIEN pour Reaper Accessible
+-- @provides [main=main] .
 
 
 -- Définir l'édition Ripple sur désactiver

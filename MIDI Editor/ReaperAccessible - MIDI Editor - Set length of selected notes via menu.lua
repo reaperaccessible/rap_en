@@ -1,6 +1,7 @@
 -- @Description Set length of selected notes via menu
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=midi_editor] .
 
 
 reaper.Undo_BeginBlock()

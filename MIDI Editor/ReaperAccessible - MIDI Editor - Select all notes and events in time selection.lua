@@ -1,6 +1,7 @@
 -- @Description Select all notes and events in time selection
 -- @version 1.0
 -- @author Lee JULIEN for Reaper Accessible
+-- @provides [main=midi_editor] .
 
 reaper.Undo_BeginBlock()
 

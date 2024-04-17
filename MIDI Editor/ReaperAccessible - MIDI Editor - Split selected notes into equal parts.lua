@@ -1,6 +1,7 @@
 -- @Description Split selected notes into equal parts
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessilbe
+-- @provides [main=midi_editor] .
 
 
 function SplitNotes(div)

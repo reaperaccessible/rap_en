@@ -1,6 +1,7 @@
 -- @Description Toggle bypass selected FX on selected track
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=main] .
 
 
 local countSelTrack = reaper.CountSelectedTracks(0);

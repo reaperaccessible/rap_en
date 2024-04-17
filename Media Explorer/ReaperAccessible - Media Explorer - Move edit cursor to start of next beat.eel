@@ -3,6 +3,7 @@
    * Author: Ludovic SANSONE for Reaper Accessible
    * Licence: GPL v3
    * Version: 1.0
+   * Provides: [main=mediaexplorer] .
 */
 
 function move_cursor_right() local(snap, grid_vis, state, beat_in_meas, meas, closest_beat_in_secs)

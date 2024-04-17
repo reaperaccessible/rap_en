@@ -1,6 +1,7 @@
 -- @Description Delete selected FX of selected track
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessilbe
+-- @provides [main=main] .
 
 
 local countSelTrack = reaper.CountSelectedTracks(0);

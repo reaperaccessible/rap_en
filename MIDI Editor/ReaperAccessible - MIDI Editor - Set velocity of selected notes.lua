@@ -1,6 +1,7 @@
 -- @Description Set velocity of selected notes
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=midi_editor] .
 
 
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end

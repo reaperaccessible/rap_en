@@ -3,6 +3,7 @@
    * Author: Ludovic SANSONE for Reaper Accessible
    * Licence: GPL v3
    * Version: 1.0
+   * Provides: [main=main] .
 */
 
 function move_cursor_left()

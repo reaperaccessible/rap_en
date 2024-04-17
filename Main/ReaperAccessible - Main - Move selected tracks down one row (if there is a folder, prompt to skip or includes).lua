@@ -1,6 +1,7 @@
 -- @Description Move selected tracks down one row (if there is a folder, prompt to skip or includes)
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=main] .
 
 
 reaper.Undo_BeginBlock()

@@ -1,6 +1,7 @@
 -- @description Bypass FX on all tracks except instruments
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=main] .
 
 
 local countSelTrack = reaper.CountSelectedTracks(0);

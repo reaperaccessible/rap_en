@@ -1,6 +1,7 @@
 -- @Description Trim or stretch position of selected notes
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=midi_editor] .
 
 
   local script_title = "ReaperAccessible - MIDI Editor - Trim or stretch position of selected notes"  

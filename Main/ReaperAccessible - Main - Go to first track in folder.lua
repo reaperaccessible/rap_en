@@ -1,6 +1,7 @@
 -- @Description Go to first track in folder
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessilbe
+-- @provides [main=main] .
 
 
 reaper.Undo_BeginBlock()

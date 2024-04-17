@@ -1,6 +1,7 @@
 -- @Description Select track from its number or name
 -- @version 1.2
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=main] .
 
 
 -- Function to announce the window opening message

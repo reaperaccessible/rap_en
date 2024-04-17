@@ -1,6 +1,7 @@
 -- @Description Speak name of selected track
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=main] .
 
 
 local countSelTrack = reaper.CountSelectedTracks(0);

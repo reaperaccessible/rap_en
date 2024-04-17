@@ -1,6 +1,7 @@
 -- @Description Speak volume of selected track
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessilbe
+-- @provides [main=main] .
 
 
 local countSelTrack = reaper.CountSelectedTracks(0);

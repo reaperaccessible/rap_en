@@ -1,6 +1,7 @@
 -- @Description Create folder from selected tracks, name folder
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=main] .
 
 
 reaper.Undo_BeginBlock()

@@ -1,6 +1,7 @@
 -- @description Add note between 2 selected notes
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=midi_editor] .
 
 
 reaper.Undo_BeginBlock()  

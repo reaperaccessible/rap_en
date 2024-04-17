@@ -1,7 +1,7 @@
 -- @Description Close selected track folder from any its tracks
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
-
+-- @provides [main=main] .
 
 reaper.Undo_BeginBlock()
 

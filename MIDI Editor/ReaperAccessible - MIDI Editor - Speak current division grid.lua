@@ -1,6 +1,7 @@
 -- @Description Speak current division grid
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=midi_editor] .
 
 
 local dict = {

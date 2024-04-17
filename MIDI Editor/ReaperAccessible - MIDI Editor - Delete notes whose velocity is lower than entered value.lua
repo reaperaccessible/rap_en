@@ -1,6 +1,7 @@
 -- @description Delete notes whose velocity is lower than entered value
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=midi_editor] .
 
 
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end

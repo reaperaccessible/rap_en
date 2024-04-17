@@ -1,6 +1,7 @@
 -- @description Lance symultanément la lecture du projet, et l'aperçu du média sélectionné
 -- @version 1.0
 -- @author Ludovic SANSONE pour Reaper Accessilbe
+-- @provides [main=mediaexplorer] .
 
 
 function GetMediaExplorer()

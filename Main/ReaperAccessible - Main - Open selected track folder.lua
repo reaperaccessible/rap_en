@@ -1,6 +1,7 @@
 -- @Description Open selected track folder
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=main] .
 
 
 -- Fonction vérifiant si la piste  placée en paramètre est bien un dossier

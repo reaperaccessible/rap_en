@@ -1,6 +1,7 @@
 -- Description: Insert empty item for each selected track depending ripple mode
 -- Version: 1.0
 -- Author: Lee Julien pour ReaperAccessible
+-- @provides [main=main] .
 
 
 reaper.Undo_BeginBlock()

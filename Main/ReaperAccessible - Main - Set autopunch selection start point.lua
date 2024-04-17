@@ -1,6 +1,7 @@
 -- @Description Set autopunch selection start point
 -- @version 1.0
 -- @author Lee JULIEN for Reaper Accessible
+-- @provides [main=main] .
 
 
 -- Définir l'enregistrement en mode auto-punch sur la sélection temporelle

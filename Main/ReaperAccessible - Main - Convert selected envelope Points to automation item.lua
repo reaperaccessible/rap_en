@@ -1,6 +1,7 @@
 -- @description Convert selected envelope Points to automation item
 -- @version 1.0
 -- @author Erwin Goossen (erwin@navelpluisje.nl) for Reaper Accessible
+-- @provides [main=main] .
 
 local function speak(str, showAlert)
   showAlert = showAlert or false;

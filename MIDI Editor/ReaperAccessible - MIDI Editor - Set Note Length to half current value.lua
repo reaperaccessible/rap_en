@@ -1,6 +1,7 @@
 -- @Description Note length set to half of current value
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=midi_editor] .
 
 
 reaper.Undo_BeginBlock()

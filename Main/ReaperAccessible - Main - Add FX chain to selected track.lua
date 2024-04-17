@@ -1,6 +1,7 @@
 -- @Description Add FX chain to selected track
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=main] .
 
 
 function AddChunkToTrack(tr, chunk)

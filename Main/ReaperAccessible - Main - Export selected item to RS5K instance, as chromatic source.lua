@@ -1,6 +1,7 @@
 -- @Description Export selected item to RS5K instance, as chromatic source
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=main] .
 
 
 local script_title = "ReaperAccessible - Main - Export selected item to RS5K instance, as chromatic source"

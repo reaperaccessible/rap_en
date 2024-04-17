@@ -1,6 +1,7 @@
 -- @Description Toggle, bind loop points to time selection
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=main] .
 
 
 reaper.Undo_BeginBlock()

@@ -1,6 +1,7 @@
 -- @Description Trigger next preset from selected FX on selected track
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=main] .
 
 
 reaper.Undo_BeginBlock()

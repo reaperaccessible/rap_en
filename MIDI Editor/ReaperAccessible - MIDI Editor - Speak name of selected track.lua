@@ -1,6 +1,7 @@
 -- @Description Speak name of selected track
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessilbe
+-- @provides [main=midi_editor] .
 
 
 local trackNumber = reaper.CountTracks(0)

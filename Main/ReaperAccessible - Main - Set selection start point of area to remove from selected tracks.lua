@@ -1,6 +1,7 @@
 -- @Description: Set selection start point of area to remove from selected tracks
 -- @version 1.0
 -- @author Lee JULIEN pour Reaper Accessible
+-- @provides [main=main] .
 
 
 -- Sélection temporelle: Définir le point de début

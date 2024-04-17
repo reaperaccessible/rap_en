@@ -1,6 +1,7 @@
 -- @Description Toggle, loop source of selected items
 -- @version 1.0
 -- @author Ludovic SANSONE for Reaper Accessible
+-- @provides [main=main] .
 
 
 reaper.Undo_BeginBlock()

@@ -1,6 +1,7 @@
 -- @Description Remove autopunch selection points
 -- @version 1.0
 -- @author Lee JULIEN for Reaper Accessible
+-- @provides [main=main] .
 
 
 -- Définir l'enregistrement en mode normal
