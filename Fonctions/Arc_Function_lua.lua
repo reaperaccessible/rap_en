@@ -2,8 +2,8 @@ local VersionMod = "v.3.0.3";
 
 -- @category Function
 -- @description Arc_Function_lua
--- @author:      Archie
--- @version:     3.0.3
+-- @author      Archie
+-- @version     3.0.3
 -- @Provides    [nomain] .
  * Function:    http://arc-website.github.io/Library_Function/Arc_Function_lua/index.html
    * -----------------------
