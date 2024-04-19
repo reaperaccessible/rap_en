@@ -1,5 +1,5 @@
--- @Description Speak name of selected FX on selected track
--- @version 1.0
+-- @description Speak name of selected FX on selected track
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessilbe
 -- @provides [main=main] .
 

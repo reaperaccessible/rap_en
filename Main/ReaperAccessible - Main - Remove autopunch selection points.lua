@@ -1,5 +1,5 @@
--- @Description Remove autopunch selection points
--- @version 1.0
+-- @description Remove autopunch selection points
+-- @version 1.1
 -- @author Lee JULIEN for Reaper Accessible
 -- @provides [main=main] .
 

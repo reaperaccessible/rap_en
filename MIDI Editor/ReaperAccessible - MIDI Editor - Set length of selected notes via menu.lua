@@ -1,5 +1,5 @@
--- @Description Set length of selected notes via menu
--- @version 1.0
+-- @description Set length of selected notes via menu
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=midi_editor] .
 

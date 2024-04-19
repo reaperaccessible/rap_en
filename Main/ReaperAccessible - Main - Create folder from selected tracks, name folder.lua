@@ -1,5 +1,5 @@
--- @Description Create folder from selected tracks, name folder
--- @version 1.0
+-- @description Create folder from selected tracks, name folder
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 
@@ -192,4 +192,4 @@ create_fol(first_sel,last_tr)
 
 r.Undo_EndBlock('Create folder from selected tracks', -1)
 
-reaper.Undo_EndBlock("Create folder from selected tracks", 0) 
+reaper.Undo_EndBlock("Créer un dossier à partir des pistes sélectionnées", 0) 

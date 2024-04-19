@@ -1,6 +1,6 @@
--- @Description Split selected notes into equal parts
--- @version 1.0
--- @author Ludovic SANSONE for Reaper Accessilbe
+-- @description Split selected notes into equal parts
+-- @version 1.1
+-- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=midi_editor] .
 
 

@@ -1,7 +1,8 @@
--- @Description Increase or decrease velocity between 2 limits entered by user with tension
--- @version 1.1
+-- @description Increase or decrease velocity between 2 limits entered by user with tension
+-- @version 1.2
 -- @author Lee JULIEN pour Reaper Accessible augmented by Chessel
 -- @provides [main=midi_editor] .
+
 
 function Msg(param)
 --  reaper.ShowConsoleMsg(tostring(param) .. "\n")

@@ -1,5 +1,5 @@
--- @Description Select previous grid division from grid menu
--- @version 1.0
+-- @description Select previous grid division from grid menu
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

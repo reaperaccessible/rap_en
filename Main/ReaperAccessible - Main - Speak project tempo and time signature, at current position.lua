@@ -1,5 +1,5 @@
--- @Description Speak project tempo and time signature, at current position
--- @version 1.0
+-- @description Speak project tempo and time signature, at current position
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

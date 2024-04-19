@@ -1,7 +1,8 @@
 -- @description Select all automation items of all tracks
--- @version 1.0
--- @author Erwin Goossen (erwin@navelpluisje.nl) for Reaper Accessible
+-- @version 1.1
+-- @author Erwin Goossen for Reaper Accessible
 -- @provides [main=main] .
+
 
 local UNDO_STATE_TRACKCFG = 1
 

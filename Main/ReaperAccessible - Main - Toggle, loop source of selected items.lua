@@ -1,5 +1,5 @@
--- @Description Toggle, loop source of selected items
--- @version 1.0
+-- @description Toggle loop source of selected items
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

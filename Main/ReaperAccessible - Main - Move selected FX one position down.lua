@@ -1,5 +1,5 @@
--- @Description Move selected FX one position down
--- @version 1.0
+-- @description Move selected FX one position down
+-- @version 1.1
 -- @author Lee JULIEN for Reaper Accessible
 -- @provides [main=main] .
 

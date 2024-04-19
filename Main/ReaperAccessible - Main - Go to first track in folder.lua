@@ -1,5 +1,5 @@
--- @Description Go to first track in folder
--- @version 1.0
+-- @description Go to first track in folder
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessilbe
 -- @provides [main=main] .
 

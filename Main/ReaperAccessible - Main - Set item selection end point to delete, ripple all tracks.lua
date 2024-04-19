@@ -1,5 +1,5 @@
--- @Description: Set item selection end point to delete, ripple all tracks
--- @version 1.0
+-- @description Set item selection end point to delete, ripple all tracks
+-- @version 1.1
 -- @author Lee JULIEN pour Reaper Accessible
 -- @provides [main=main] .
 

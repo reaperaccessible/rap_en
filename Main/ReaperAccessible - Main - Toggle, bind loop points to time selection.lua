@@ -1,5 +1,5 @@
--- @Description Toggle, bind loop points to time selection
--- @version 1.0
+-- @description Toggle bind loop points to time selection
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

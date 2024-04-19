@@ -1,5 +1,5 @@
--- @Description Set velocity of selected notes
--- @version 1.0
+-- @description Set velocity of selected notes
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=midi_editor] .
 

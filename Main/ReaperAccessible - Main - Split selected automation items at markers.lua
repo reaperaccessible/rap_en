@@ -1,7 +1,8 @@
 -- @description Split selected automation items at markers
 -- @version 1.0
--- @author Erwin Goossen (erwin@navelpluisje.nl) for Reaper Accessible
+-- @author Erwin Goossen for Reaper Accessible
 -- @provides [main=main] .
+
 
 local UNDO_STATE_TRACKCFG = 1
 local SCRIPT_NAME = ({reaper.get_action_context()})[2]:match("([^/\\_]+)%.lua$")

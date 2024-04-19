@@ -1,7 +1,8 @@
--- @Description Set length note to 1/16
--- @version 1.0
+-- @description Set length note to 1/16
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=midi_editor] .
+
 
 reaper.Undo_BeginBlock()
 

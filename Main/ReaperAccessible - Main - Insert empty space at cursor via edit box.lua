@@ -1,5 +1,5 @@
--- @Description Insert empty space at cursor via edit box
--- @version 1.0
+-- @description Insert empty space at cursor via edit box
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 
