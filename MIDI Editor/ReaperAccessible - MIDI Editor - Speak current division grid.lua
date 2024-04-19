@@ -1,5 +1,5 @@
--- @Description Speak current division grid
--- @version 1.0
+-- @description Speak current division grid
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=midi_editor] .
 

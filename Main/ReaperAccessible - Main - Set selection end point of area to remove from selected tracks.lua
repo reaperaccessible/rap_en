@@ -1,5 +1,5 @@
--- @Description: Set selection end point of area to remove from selected tracks
--- @version 1.0
+-- @description Set selection end point of area to remove from selected tracks
+-- @version 1.1
 -- @author Lee JULIEN pour Reaper Accessible
 -- @provides [main=main] .
 

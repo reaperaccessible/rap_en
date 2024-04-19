@@ -1,5 +1,5 @@
--- @Description Bypass FX of selected tracks, except instruments
--- @version 1.0
+-- @description Bypass FX of selected tracks, except instruments
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

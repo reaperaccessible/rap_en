@@ -1,5 +1,5 @@
--- @Description Start recording based on Ripple mode
--- @version 1.0
+-- @description Start recording based on Ripple mode
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

@@ -1,6 +1,6 @@
--- @description Lance symultanément la lecture du projet, et l'aperçu du média sélectionné
--- @version 1.0
--- @author Ludovic SANSONE pour Reaper Accessilbe
+-- @description Start and stop playback of media preview and project simultaneously
+-- @version 1.1
+-- @author Ludovic SANSONE pour Reaper Accessible
 -- @provides [main=mediaexplorer] .
 
 

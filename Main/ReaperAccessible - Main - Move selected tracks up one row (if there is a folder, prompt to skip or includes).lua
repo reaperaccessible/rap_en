@@ -1,5 +1,5 @@
--- @Description Move selected tracks up one row (if there is a folder, prompt to skip or includes)
--- @version 1.0
+-- @description Move selected tracks up one row (if there is a folder, prompt to skip or includes)
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

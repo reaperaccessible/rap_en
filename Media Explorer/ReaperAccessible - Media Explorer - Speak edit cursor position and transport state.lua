@@ -1,5 +1,5 @@
--- @Description Speak edit cursor position and transport state
--- @version 1.0
+-- @description Speak edit cursor position and transport state
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=mediaexplorer] .
 

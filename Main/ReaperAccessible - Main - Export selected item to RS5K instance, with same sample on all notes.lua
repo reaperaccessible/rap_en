@@ -1,5 +1,5 @@
--- @Description Export selected item to RS5K instance, with same sample on all notes
--- @version 1.0
+-- @description Export selected item to RS5K instance, with same sample on all notes
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

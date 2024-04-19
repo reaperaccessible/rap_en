@@ -1,5 +1,5 @@
--- @Description Export each selected object to an instance of RS5K (Loop mode)
--- @version 1.0
+-- @description Export each selected item to an instance of RS5K (Loop mode)
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

@@ -1,5 +1,5 @@
--- @Description Trigger next preset from selected FX on selected track
--- @version 1.0
+-- @description Trigger next preset from selected FX on selected track
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

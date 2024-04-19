@@ -1,5 +1,5 @@
--- @Description Toggle bypass selected FX on selected track
--- @version 1.0
+-- @description Toggle bypass selected FX on selected track
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

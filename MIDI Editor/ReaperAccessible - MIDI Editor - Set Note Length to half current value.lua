@@ -1,5 +1,5 @@
--- @Description Note length set to half of current value
--- @version 1.0
+-- @description Note length set to half of current value
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=midi_editor] .
 

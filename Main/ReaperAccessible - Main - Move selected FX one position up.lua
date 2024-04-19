@@ -1,5 +1,5 @@
--- @Description Déplacer l'FX sélectionné d'une position vers le haut
--- @version 1.0
+-- @description Move selected FX one position up
+-- @version 1.1
 -- @author Lee JULIEN pour Reaper Accessible
 -- @provides [main=main] .
 

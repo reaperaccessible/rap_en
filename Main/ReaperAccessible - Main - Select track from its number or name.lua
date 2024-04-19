@@ -1,5 +1,5 @@
--- @Description Select track from its number or name
--- @version 1.2
+-- @description Select track from its number or name
+-- @version 1.3
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

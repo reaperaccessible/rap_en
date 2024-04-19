@@ -1,5 +1,5 @@
--- @Description Select next FX of selected track
--- @version 1.0
+-- @description Select next FX of selected track
+-- @version 1.1
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 
