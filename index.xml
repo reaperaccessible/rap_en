@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="b3ff8fc50e7279849678356a175f809f626a0fd4">
+<index version="1" name="rap_en" commit="529c8e60ee26c3ce26cce1649fe22983f9f9633d">
   <category name="extensions">
     <reapack name="js_api_reascript.ext" type="extension" desc="Complementary API for ReaScript">
       <metadata>
@@ -158,6 +158,11 @@
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/632f4e608737fd7cc957855b75c26702bc5317f7/Main/ReaperAccessible%20-%20Main%20-%20Go%20to%20first%20track%20in%20folder.lua</source>
       </version>
     </reapack>
+    <reapack name="ReaperAccessible - Main - Go to last item of selected track.lua" type="script" desc="Go to last item of selected track">
+      <version name="1.0" author="Lo-lo for ReaperAccessible." time="2024-05-03T14:58:13Z">
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/33a95798fe7b87e53c6c44ecb947516db6fc8a9f/Main/ReaperAccessible%20-%20Main%20-%20Go%20to%20last%20item%20of%20selected%20track.lua</source>
+      </version>
+    </reapack>
     <reapack name="ReaperAccessible - Main - Go to last track in folder.lua" type="script" desc="Go to last track in folder">
       <version name="1.0" author="Ludovic SANSONE for Reaper Accessible" time="2024-04-17T12:25:03Z">
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/d6a112c8ded180a62013335a21033a8a27810f65/Main/ReaperAccessible%20-%20Main%20-%20Go%20to%20last%20track%20in%20folder.lua</source>
@@ -180,6 +185,11 @@
       </version>
       <version name="1.1" author="Ludovic SANSONE for Reaper Accessible" time="2024-04-19T14:21:22Z">
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/632f4e608737fd7cc957855b75c26702bc5317f7/Main/ReaperAccessible%20-%20Main%20-%20Insert%20empty%20space%20at%20cursor%20via%20edit%20box.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - Main - Last touched parameter step.lua" type="script" desc="Put all last touched parameter steps to the clipboard">
+      <version name="1.0" author="&quot;Ludovic SANSONE pour Reaper Accessible&quot;" time="2024-05-03T14:58:13Z">
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/33a95798fe7b87e53c6c44ecb947516db6fc8a9f/Main/ReaperAccessible%20-%20Main%20-%20Last%20touched%20parameter%20step.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Move edit cursor to start of current beat.eel" type="script" desc="Aller au début du temps précédent">
