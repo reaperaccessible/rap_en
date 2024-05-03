@@ -1,5 +1,5 @@
 -- @description Adjust Playback Rate for Selected Items
--- @version 1.1
+-- @version 1.3
 -- @author Lo-lo for ReaperAccessible. 
 -- @provides [main=main] .
 

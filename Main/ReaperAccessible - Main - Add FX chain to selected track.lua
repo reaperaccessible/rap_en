@@ -1,5 +1,5 @@
 -- @description Add FX chain to selected track
--- @version 1.1
+-- @version 1.3
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 
