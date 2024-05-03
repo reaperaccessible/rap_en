@@ -1,5 +1,5 @@
 -- @description Display a menu to access various functions of RS5K
--- @version 1.1
+-- @version 1.2
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

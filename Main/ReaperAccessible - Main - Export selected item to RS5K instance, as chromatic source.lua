@@ -1,5 +1,5 @@
 -- @description Export selected item to RS5K instance, as chromatic source
--- @version 1.1
+-- @version 1.2
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 

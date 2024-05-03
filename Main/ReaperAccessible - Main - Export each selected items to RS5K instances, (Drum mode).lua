@@ -1,10 +1,10 @@
 -- @description Exports each selected item to an instance of RS5K (Drum mode)
--- @version 1.1
+-- @version 1.2
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 
 
-  local script_title = 'ReaperAccessible - Main - Export each selected items to RS5K instances, (Drum mode))' 
+  local script_title = "ReaperAccessible - Main - Export each selected items to RS5K instances, (Drum mode)"
   
   -------------------------------------------------------------------------------
   function F_SetFXName(track, fx, new_name)
