@@ -1,5 +1,5 @@
 -- @description Move selected tracks up one row (if there is a folder, prompt to skip or includes)
--- @version 1.1
+-- @version 1.3
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 
@@ -45,7 +45,7 @@ reaper.Undo_BeginBlock()
     local function MODULE(file);
         local E,A=pcall(dofile,file);if not(E)then;reaper.ShowConsoleMsg("\n\nError - "..debug.getinfo(1,'S').source:match('.*[/\\](.+)')..'\nMISSING FILE / ОТСУТСТВУЕТ ФАЙЛ!\n'..file:gsub('\\','/'))return;end;
         if not A.VersArcFun("2.8.5",file,'')then;A=nil;return;end;return A;
-    end; local Arc = MODULE((reaper.GetResourcePath()..'/Scripts/ReaperAccessible scripts US/Fonctions/Arc_Function_lua.lua'):gsub('\\','/'));
+    end; local Arc = MODULE((reaper.GetResourcePath().."/Scripts/ReaperAccessible scripts US/Fonctions/Arc_Function_lua.lua"):gsub('\\','/'));
     if not Arc then return end;
     --=========================================
   

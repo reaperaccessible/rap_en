@@ -1,5 +1,5 @@
 -- @description Move selected tracks down one row (if there is a folder, prompt to skip or includes)
--- @version 1.1
+-- @version 1.3
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 
@@ -47,7 +47,7 @@ reaper.Undo_BeginBlock()
         local E,A=pcall(dofile,file);if not(E)then;reaper.ShowConsoleMsg("\n\nError - "..debug.getinfo(1,'S').source:match('.*[/\\](.+)')..'\nMISSING FILE / ОТСУТСТВУЕТ ФАЙЛ!\n'..file:gsub('\\','/'))return;end;
         if not A.VersArcFun("2.8.5",file,'')then;A=nil;return;end;return A;
     end;
-    local Arc = MODULE((reaper.GetResourcePath()..'/Scripts/ReaperAccessible scripts US/Fonctions/Arc_Function_lua.lua'):gsub('\\','/'));
+    local Arc = MODULE((reaper.GetResourcePath()..'/Scripts/ReaperAccessible scripts/Fonctions/Arc_Function_lua.lua'):gsub('\\','/'));
     if not Arc then return end;
     --=========================================
   
@@ -302,7 +302,7 @@ reaper.Undo_BeginBlock()
                                     if wind then;
                                         NumbTr_w = table.concat(NumbTr_w,", ").." - ";
                                         local text_w = "Would you like to move this track to the folder below?"
-                                        local MB = reaper.MB(text_w,"Moving track down", 4);
+                                        local MB = reaper.MB(text_w,"Déplacement de la piste vers le bas", 4);
                                         if MB == 6 then Fol_W = 0; elseif MB == 7 then Fol_W = 1; elseif MB == 2 then goto cancel end;
                                     else;
                                         wind = true;
@@ -490,4 +490,4 @@ reaper.Undo_BeginBlock()
     pcall(main)
     reaper.PreventUIRefresh(-597814);
     
-    reaper.Undo_EndBlock("Moving track", 0) 
+    reaper.Undo_EndBlock("Moving Track Down", 0) 

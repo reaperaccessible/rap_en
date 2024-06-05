@@ -1,5 +1,5 @@
 -- @description Opens a menu containing the resources offered by ReaperAccessible.
--- @version 1.1
+-- @version 1.2
 -- @author Lee JULIEN for Reaper Accessible
 -- @provides [main=main] .
 
@@ -72,6 +72,9 @@ local subMenus = {
    {name = "DrumAccess - Tama - Starclassic Performer Kit Page Here", url = "https://reaperaccessible.fr/index.php/en-us/drumaccessen/drum-access-english/drumaccess-tama-starclassic-performer-kit-en"},
    {name = "DrumAccess - Yamaha - Recording Custom Kit Page Here", url = "https://reaperaccessible.fr/index.php/en-us/drumaccessen/drum-access-english/drumaccess-yamaha-recording-custom-kit-en"},
    {name = "DrumAccess - Gretsch - Broadkaster Kit Damped", url = "https://reaperaccessible.fr/index.php/fr/drumaccess-librairies-de-batterie/drumaccess/da-gretsch-broadkaster-kit-damped-fr"},
+   {name = "DrumAccess - Gretsch - 60s Round Badge Kit Damped", url = "https://reaperaccessible.fr/index.php/fr/drumaccess-librairies-de-batterie/drumaccess/drumaccess-gretsch-60s-round-badge-kit-damped-fr"},
+   {name = "DrumAccess - DW - Deep Blue Oyster Kit", url = "https://reaperaccessible.fr/index.php/en-us/drumaccessen/drum-access-english/drumaccess-dw-deep-blue-oyster-kit-en"},
+   {name = "DrumAccess - Gretsch - USA Custom Kit - Damped", url = "https://reaperaccessible.fr/index.php/en-us/drumaccessen/drum-access-english/drumaccess-gretsch-usa-custom-kit-damped-en"},
   }
  },
 }
