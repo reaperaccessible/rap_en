@@ -1,5 +1,5 @@
 -- @description Select previous grid division from grid menu
--- @version 1.1
+-- @version 1.3
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 
@@ -36,10 +36,10 @@ local dict = {
 function getNextDivision(g, d)
     for i = 1, 22 do
         if g == d[i][1] then
-            if i == 22 then
-                return d[1][1], d[1][2]
+            if i == 1 then
+                return d[22][1], d[22][2]
             end
-            return d[i + 1][1], d[i + 1][2]
+            return d[i - 1][1], d[i - 1][2]
         end
     end
     return 0, "invalid"
@@ -52,4 +52,4 @@ if division > 0 then
     reaper.osara_outputMessage(msg .. " is set as grid division value")
 end
 
-  reaper.Undo_EndBlock("Cannot undo this action", 0) 
+reaper.Undo_EndBlock("Cannot undo this action", 0) 

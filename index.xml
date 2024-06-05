@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="rap_en" commit="529c8e60ee26c3ce26cce1649fe22983f9f9633d">
+<index version="1" name="ReaperAccessible scripts" commit="0567da9e07a5e7f2fddc9afb251e5e8cb140a627">
   <category name="extensions">
     <reapack name="js_api_reascript.ext" type="extension" desc="Complementary API for ReaScript">
       <metadata>
@@ -25,10 +25,16 @@
       <version name="1.1" author="Ludovic SANSONE for Reaper Accessible" time="2024-04-19T14:21:22Z">
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/632f4e608737fd7cc957855b75c26702bc5317f7/Main/ReaperAccessible%20-%20Main%20-%20Add%20FX%20chain%20to%20selected%20track.lua</source>
       </version>
+      <version name="1.3" author="Ludovic SANSONE for Reaper Accessible" time="2024-05-03T16:06:34Z">
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/0567da9e07a5e7f2fddc9afb251e5e8cb140a627/Main/ReaperAccessible%20-%20Main%20-%20Add%20FX%20chain%20to%20selected%20track.lua</source>
+      </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Adjust Playback Rate for Selected Items.lua" type="script" desc="Adjust Playback Rate for Selected Items">
       <version name="1.1" author="Lo-lo for ReaperAccessible." time="2024-04-22T13:03:47Z">
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/7ea480273fc31facbb9892969d7ee3c3864ac2ea/Main/ReaperAccessible%20-%20Main%20-%20Adjust%20Playback%20Rate%20for%20Selected%20Items.lua</source>
+      </version>
+      <version name="1.3" author="Lo-lo for ReaperAccessible." time="2024-05-03T16:06:34Z">
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/0567da9e07a5e7f2fddc9afb251e5e8cb140a627/Main/ReaperAccessible%20-%20Main%20-%20Adjust%20Playback%20Rate%20for%20Selected%20Items.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Close all track folders in project.lua" type="script" desc="Close all track folders in project">
