@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="4ce36fd599c999619041ef1ef63e4e7a7b4df1cf">
+<index version="1" name="ReaperAccessible scripts US" commit="a3353cdb22a1bc0d7b40e2b122cb24b2fab82487">
   <category name="extensions">
     <reapack name="js_api_reascript.ext" type="extension" desc="Complementary API for ReaScript">
       <metadata>
@@ -14,6 +14,9 @@
     <reapack name="Arc_Function_lua.lua" type="script" desc="Arc_Function_lua">
       <version name="3.0.3" author="Archie" time="2024-04-17T14:04:46Z">
         <source>https://github.com/reaperaccessible/rap_en/raw/57db0e6e85f611adda21cdc930aef1b1343529b4/Fonctions/Arc_Function_lua.lua</source>
+      </version>
+      <version name="3.0.4" author="Archie" time="2024-06-06T15:34:53Z">
+        <source>https://github.com/reaperaccessible/rap_en/raw/a3353cdb22a1bc0d7b40e2b122cb24b2fab82487/Fonctions/Arc_Function_lua.lua</source>
       </version>
     </reapack>
   </category>
