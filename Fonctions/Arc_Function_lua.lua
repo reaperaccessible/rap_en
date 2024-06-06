@@ -1,10 +1,13 @@
--- @category Function
--- @description Arc_Function_lua
--- @author      Archie
--- @version     3.0.3
--- @provides    [nomain] .
-
-* Function:    http://arc-website.github.io/Library_Function/Arc_Function_lua/index.html
+local VersionMod = "v.3.0.3";
+--[[
+   * Category:    Function
+   * Description: Arc_Function_lua
+   * Author:      Archie
+   * Version:     3.0.4
+   * AboutScript: Functions for use with some scripts Archie
+   * О скрипте:   Функции для использования с некоторыми скриптами Archie
+   * Provides:    [nomain].
+   * Function:    http://arc-website.github.io/Library_Function/Arc_Function_lua/index.html
    * -----------------------
 
    * Changelog:   
@@ -129,7 +132,7 @@
     -- Что бы в ундо не прописывалось "ReaScript:Run"
     --====End===============End===============End===============End===============End====
 
-local VersionMod = "v.3.0.3";
+
 
     --- 122 ---------- Action -----------------------------------------------------------
     function Arc_Module.Action(...);
