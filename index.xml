@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="ace669f74d1881541ffc05070e3bc2903f180b8f">
+<index version="1" name="ReaperAccessible scripts US" commit="92a0a343af5d82ee9f393a73759bb6c7ab08837c">
   <category name="extensions">
     <reapack name="js_api_reascript.ext" type="extension" desc="Complementary API for ReaScript">
       <metadata>
@@ -43,6 +43,9 @@
     <reapack name="ReaperAccessible - Main - Close all track folders in project.lua" type="script" desc="Close all track folders in project">
       <version name="1.2" author="Lee JULIEN For Reaper Accessible" time="2024-04-19T14:21:22Z">
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/632f4e608737fd7cc957855b75c26702bc5317f7/Main/ReaperAccessible%20-%20Main%20-%20Close%20all%20track%20folders%20in%20project.lua</source>
+      </version>
+      <version name="1.3" author="Lee JULIEN For Reaper Accessible" time="2024-06-07T23:52:21Z">
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/92a0a343af5d82ee9f393a73759bb6c7ab08837c/Main/ReaperAccessible%20-%20Main%20-%20Close%20all%20track%20folders%20in%20project.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Close selected track folder from any its tracks.lua" type="script" desc="Close selected track folder from any its tracks">
@@ -281,6 +284,9 @@
       <version name="1.2" author="Lee JULIEN For Reaper Accessible" time="2024-04-19T14:21:22Z">
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/632f4e608737fd7cc957855b75c26702bc5317f7/Main/ReaperAccessible%20-%20Main%20-%20Open%20all%20track%20folders%20in%20project.lua</source>
       </version>
+      <version name="1.3" author="Lee JULIEN For Reaper Accessible" time="2024-06-07T23:52:21Z">
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/92a0a343af5d82ee9f393a73759bb6c7ab08837c/Main/ReaperAccessible%20-%20Main%20-%20Open%20all%20track%20folders%20in%20project.lua</source>
+      </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Open directories menu.lua" type="script" desc="Open directories menu">
       <version name="1.0" author="Ludovic SANSONE for Reaper Accessible" time="2024-04-17T12:25:03Z">
@@ -330,6 +336,9 @@
     <reapack name="ReaperAccessible - Main - Select item from its number.lua" type="script" desc="Select item from its number">
       <version name="1.0" author="Lo-lo for ReaperAccessible." time="2024-04-22T13:03:47Z">
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/7ea480273fc31facbb9892969d7ee3c3864ac2ea/Main/ReaperAccessible%20-%20Main%20-%20Select%20item%20from%20its%20number.lua</source>
+      </version>
+      <version name="1.1" author="Lo-lo for ReaperAccessible." time="2024-06-07T23:52:21Z">
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/92a0a343af5d82ee9f393a73759bb6c7ab08837c/Main/ReaperAccessible%20-%20Main%20-%20Select%20item%20from%20its%20number.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Select next FX of selected track.lua" type="script" desc="Select next FX of selected track">
@@ -508,14 +517,6 @@
       </version>
       <version name="1.2" author="Ludovic SANSONE for Reaper Accessible" time="2024-04-22T13:03:47Z">
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/7ea480273fc31facbb9892969d7ee3c3864ac2ea/Main/ReaperAccessible%20-%20Main%20-%20Speak%20name%20of%20selected%20track.lua</source>
-      </version>
-    </reapack>
-    <reapack name="ReaperAccessible - Main - Speak project tempo and time signature, at current position.lua" type="script" desc="Speak project tempo and time signature, at current position">
-      <version name="1.0" author="Ludovic SANSONE for Reaper Accessible" time="2024-04-17T12:25:03Z">
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/d6a112c8ded180a62013335a21033a8a27810f65/Main/ReaperAccessible%20-%20Main%20-%20Speak%20project%20tempo%20and%20time%20signature,%20at%20current%20position.lua</source>
-      </version>
-      <version name="1.1" author="Ludovic SANSONE for Reaper Accessible" time="2024-04-19T14:21:22Z">
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/632f4e608737fd7cc957855b75c26702bc5317f7/Main/ReaperAccessible%20-%20Main%20-%20Speak%20project%20tempo%20and%20time%20signature,%20at%20current%20position.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Speak selected item number and name.lua" type="script" desc="Speak selected item number and name">
