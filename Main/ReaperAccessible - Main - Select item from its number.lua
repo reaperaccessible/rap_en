@@ -1,5 +1,5 @@
 -- @description Select item from its number
--- @version 1.0
+-- @version 1.1
 -- @author Lo-lo for ReaperAccessible. 
 -- @provides [main=main] .
 
@@ -37,7 +37,7 @@ local function Main()
     
     -- Check if there are items in the track
     if itemCount == 0 then
-        reaper.osara_outputMessage("No items in the track.\n")
+        reaper.osara_outputMessage("No items on this track.\n")
         return
     end
     

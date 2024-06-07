@@ -1,5 +1,5 @@
 -- @description Ouvre tous les dossiers de pistes du projet
--- @version 1.2
+-- @version 1.3
 -- @author Lee JULIEN For Reaper Accessible
 -- @provides [main=main] .
 
@@ -18,7 +18,7 @@ end
 local anyFolderOpened = false -- Variable pour suivre si au moins un dossier a été ouvert
 
 if reaper.CountTracks() < 1 then
-    reaper.osara_outputMessage("Aucune piste dans votre projet")
+    reaper.osara_outputMessage("No tracks in your project")
     return
 end
 
@@ -38,7 +38,7 @@ end
 
 -- Énoncer un message de confirmation si des dossiers ont été ouverts, sinon annoncer qu'aucune piste dossier n'a été trouvée
 if anyFolderOpened then
-    reaper.osara_outputMessage("Tous les dossiers de piste ont été ouverts")
+    reaper.osara_outputMessage("All track folders have been opened")
 else
-    reaper.osara_outputMessage("Aucune piste dossier trouvée")
+    reaper.osara_outputMessage("No track folder founde")
 end

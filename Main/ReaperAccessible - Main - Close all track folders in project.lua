@@ -1,5 +1,5 @@
 -- @description Close all track folders in project
--- @version 1.2
+-- @version 1.3
 -- @author Lee JULIEN For Reaper Accessible
 -- @provides [main=main] .
 
@@ -32,7 +32,7 @@ function selectCurrentTrackFolder(track)
     local trackNumber = reaper.GetMediaTrackInfo_Value(track, "IP_TRACKNUMBER")
     
     if trackDepth <= 0 then
-        reaper.osara_outputMessage("Cette piste n'est pas dans un dossier")
+        reaper.osara_outputMessage("This track is not in a folder")
         return
     else
         for i = trackNumber, 1, -1 do
@@ -47,7 +47,7 @@ function selectCurrentTrackFolder(track)
 end
 
 if reaper.CountTracks() < 1 then
-    reaper.osara_outputMessage("Aucune piste dans votre projet")
+    reaper.osara_outputMessage("No tracks in your project")
     return
 end
 
@@ -64,11 +64,11 @@ for i = 0, reaper.CountTracks() - 1 do
         if reaper.GetMediaTrackInfo_Value(track, "I_FOLDERCOMPACT") ~= 2 then
             reaper.SetMediaTrackInfo_Value(track, "I_FOLDERCOMPACT", 2)
             local _, name = reaper.GetTrackName(track)
-            reaper.osara_outputMessage("Dossier " .. name .. " fermé")
+            reaper.osara_outputMessage("Folder" .. name .. " closed")
             anyFolderClosed = true
         else
             local _, name = reaper.GetTrackName(track)
-            reaper.osara_outputMessage(name .. " est déjà fermé")
+            reaper.osara_outputMessage(name .. " is already closed")
         end
     elseif reaper.GetTrackDepth(track) > 0 then
         local selectedFolder = selectCurrentTrackFolder(track)
@@ -76,11 +76,11 @@ for i = 0, reaper.CountTracks() - 1 do
             if reaper.GetMediaTrackInfo_Value(selectedFolder, "I_FOLDERCOMPACT") ~= 2 then
                 reaper.SetMediaTrackInfo_Value(selectedFolder, "I_FOLDERCOMPACT", 2)
                 local _, name = reaper.GetTrackName(selectedFolder)
-                reaper.osara_outputMessage("Dossier " .. name .. " fermé")
+                reaper.osara_outputMessage("Folder " .. name .. " closed")
                 anyFolderClosed = true
             else
                 local _, name = reaper.GetTrackName(selectedFolder)
-                reaper.osara_outputMessage(name .. " est déjà fermé")
+                reaper.osara_outputMessage(name .. " is already closed")
             end
         end
     end
@@ -93,9 +93,9 @@ reaper.Main_OnCommandEx(reaper.NamedCommandLookup("_OSARA_MUTENEXTMESSAGE"), 0, 
 
 -- Énoncer un message de confirmation si des dossiers ont été fermés, sinon annoncer qu'aucune piste dossier n'a été trouvée
 if anyFolderClosed then
-    reaper.osara_outputMessage("Tous les dossiers de piste ont été fermés")
+    reaper.osara_outputMessage("All track folders have been closed")
 else
-    reaper.osara_outputMessage("Aucune piste dossier trouvée")
+    reaper.osara_outputMessage("No track folder founde")
 end
 
 -- Faire énoncer un message par OSARA pour le débloquer
