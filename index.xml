@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="ee285d898a5b6b2b3c872fb71a8c635c4e6b78c8">
+<index version="1" name="ReaperAccessible scripts US" commit="b071b6a5275fe74c89ba1e6635351bd5eaedbb60">
   <category name="extensions">
     <reapack name="js_api_reascript.ext" type="extension" desc="Complementary API for ReaScript">
       <metadata>
@@ -478,6 +478,9 @@
       </version>
       <version name="1.5" author="Ludovic SANSONE for Reaper Accessible" time="2024-06-07T00:28:50Z">
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/f9063531441af808f577a19c3eadb2cb5559c19f/Main/ReaperAccessible%20-%20Main%20-%20Speak%20current%20grid%20division.lua</source>
+      </version>
+      <version name="1.6" author="Ludovic SANSONE for Reaper Accessible" time="2024-06-07T00:55:51Z">
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/b071b6a5275fe74c89ba1e6635351bd5eaedbb60/Main/ReaperAccessible%20-%20Main%20-%20Speak%20current%20grid%20division.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Speak Master track volume.lua" type="script" desc="Speak Master track volume">
