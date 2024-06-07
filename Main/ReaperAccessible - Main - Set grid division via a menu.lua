@@ -1,5 +1,5 @@
 -- @description Set grid division via a menu
--- @version 1.1
+-- @version 1.5
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 
