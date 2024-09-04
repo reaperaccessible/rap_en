@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="5a53da7472e72a083ceb0ed20a54b81cbce63809">
+<index version="1" name="ReaperAccessible scripts US" commit="8dd74adc740ce90bb611495f741409be5c4b71ca">
   <category name="extensions">
     <reapack name="js_api_reascript.ext" type="extension" desc="Complementary API for ReaScript">
       <metadata>
@@ -93,6 +93,9 @@
       <version name="1.2" author="Ludovic SANSONE for Reaper Accessible" time="2024-05-03T13:31:37Z">
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/b3ff8fc50e7279849678356a175f809f626a0fd4/Main/ReaperAccessible%20-%20Main%20-%20Display%20RS5K%20menu.lua</source>
       </version>
+      <version name="1.3" author="Ludovic SANSONE for Reaper Accessible" time="2024-09-04T18:21:26Z">
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/8dd74adc740ce90bb611495f741409be5c4b71ca/Main/ReaperAccessible%20-%20Main%20-%20Display%20RS5K%20menu.lua</source>
+      </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Edit volume of all selected tracks.lua" type="script" desc="Edit volume of all selected tracks">
       <version name="1.0" author="Ludovic SANSONE for Reaper Accessilbe" time="2024-04-17T12:25:03Z">
@@ -133,6 +136,11 @@
       </version>
       <version name="1.2" author="Ludovic SANSONE for Reaper Accessible" time="2024-05-03T13:31:37Z">
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/b3ff8fc50e7279849678356a175f809f626a0fd4/Main/ReaperAccessible%20-%20Main%20-%20Export%20each%20selected%20items%20to%20RS5K%20instances,%20(Loop%20mode).lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - Main - Export each selected items to RS5K instances, on selected track (Round robin mode).lua" type="script" desc="Export each selected items to RS5K instances, on selected track (Round robin mode)">
+      <version name="1.0" author="Lee JULIEN for Reaper Accessible" time="2024-09-04T18:21:26Z">
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/8dd74adc740ce90bb611495f741409be5c4b71ca/Main/ReaperAccessible%20-%20Main%20-%20Export%20each%20selected%20items%20to%20RS5K%20instances,%20on%20selected%20track%20(Round%20robin%20mode).lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Export selected item to RS5K instance, as chromatic source.lua" type="script" desc="Export selected item to RS5K instance, as chromatic source">
