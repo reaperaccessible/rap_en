@@ -1,10 +1,10 @@
 -- @description Export selected item to RS5K instance, as chromatic source
--- @version 1.2
+-- @version 1.3
 -- @author Ludovic SANSONE for Reaper Accessible
 -- @provides [main=main] .
 
 
-local script_title = "ReaperAccessible - Main - Export selected item to RS5K instance, as chromatic source"
+local script_title = "Export selected item to RS5K instance, as chromatic source"
   -------------------------------------------------------------------------------
   function F_SetFXName(track, fx, new_name)
     local edited_line,edited_line_id,segm
