@@ -1,5 +1,5 @@
 -- @description Disable Room or Room A1 Microphones for DrumAccess
--- @version 1.2
+-- @version 1.3
 -- @author Lee JULIEN for Reaper Accessible
 -- @provides [main=main] .
 
@@ -34,7 +34,7 @@ end
 
 if keywordDetected then
     reaper.defer(function()
-        reaper.osara_outputMessage("Room, or Room A1 microphone are disabled.")
+        reaper.osara_outputMessage("Room, or Room A1 microphones are disabled.")
     end)
 else
     reaper.osara_outputMessage("No parameters are displayed, the selected track does not contain DrumAccess FX, or this kit piece does not offer Room or Room A1 microphone. Please select the DrumAccess folder track, trigger the script ReaperAccessible - DrumAccess - Make drum kit parameters available, select a track that contains a DrumAccess FX, and triggering this action again.")

@@ -1,5 +1,5 @@
 -- @description Disable Room B1 Microphones for DrumAccess
--- @version 1.1
+-- @version 1.2
 -- @author Lee JULIEN for Reaper Accessible
 -- @provides [main=main] .
 

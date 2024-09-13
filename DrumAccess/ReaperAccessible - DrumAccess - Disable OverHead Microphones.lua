@@ -1,5 +1,5 @@
 -- @description Disable OverHead Microphones For DrumAccess
--- @version 1.1
+-- @version 1.2
 -- @author Lee JULIEN for Reaper Accessible
 -- @provides [main=main] .
 
@@ -34,7 +34,7 @@ end
 
 if keywordDetected then
     reaper.defer(function()
-        reaper.osara_outputMessage("All OverHead microphones are disabled.")
+        reaper.osara_outputMessage("OverHead microphones are disabled.")
     end)
 else
     reaper.osara_outputMessage("No parameters are displayed, the selected track does not contain DrumAccess FX, or this kit piece does not offer OverHead microphone. Please select the DrumAccess folder track, trigger the script ReaperAccessible - DrumAccess - Make drum kit parameters available, select a track that contains a DrumAccess FX, and triggering this action again.")

@@ -1,5 +1,5 @@
 -- @description Disable Closed Microphones for DrumAccess
--- @version 1.1
+-- @version 1.2
 -- @author Lee JULIEN for Reaper Accessible
 -- @provides [main=main] .
 
@@ -60,6 +60,6 @@ if not keywordDetected then
     reaper.osara_outputMessage("No parameters are displayed, the selected track does not contain DrumAccess FX, or this kit piece does not offer Close microphone. Please select the DrumAccess folder track, trigger the script ReaperAccessible - DrumAccess - Make drum kit parameters available, select a track that contains a DrumAccess FX, and triggering this action again.")
 else
     reaper.defer(function()
-        reaper.osara_outputMessage("All closed microphones are disabled.")
+        reaper.osara_outputMessage("Closed microphones are disabled.")
     end)
 end
