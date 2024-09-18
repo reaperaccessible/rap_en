@@ -1,7 +1,9 @@
--- @description Exports each selected item to an instance of RS5K (Keyboard mode)
--- @version 1.3
--- @author Ludovic SANSONE for Reaper Accessible
+-- @description Export each selected items to RS5K instances, (Keyboard mode)
+-- @version 1.4
+-- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 local script_title = "Export each selected items to RS5K instances, (Keyboard mode)"

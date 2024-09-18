@@ -1,6 +1,6 @@
 -- @description Humanize velocity of selected notes via menu
 -- @version 1.0
--- @author Ludovic SANSONE for Reaper Accessible
+-- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=midi_editor] .
 
 

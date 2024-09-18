@@ -1,7 +1,9 @@
 -- @description Export each selected items to RS5K instances, on selected track (Round robin mode)
--- @version 1.0
--- @author Lee JULIEN for Reaper Accessible
+-- @version 1.1
+-- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 local script_title = 'Export selected items to RS5k instances on selected track (Round robin mode)' 

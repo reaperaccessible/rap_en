@@ -1,6 +1,6 @@
 -- @description Note length set to half of current value
 -- @version 1.1
--- @author Ludovic SANSONE for Reaper Accessible
+-- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=midi_editor] .
 
 

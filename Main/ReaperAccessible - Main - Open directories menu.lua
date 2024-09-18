@@ -1,7 +1,9 @@
--- @Description Open directories menu
--- @version 1.0
--- @author Ludovic SANSONE for Reaper Accessible
+-- @description Open directories menu
+-- @version 1.1
+-- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 if not reaper.APIExists( "JS_Window_Find" ) then

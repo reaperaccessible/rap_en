@@ -1,7 +1,9 @@
 -- @description Go to last item of selected track
--- @version 1.0
--- @author Lo-lo for ReaperAccessible. 
+-- @version 1.1
+-- @author Lo-lo for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 -- Get the active track

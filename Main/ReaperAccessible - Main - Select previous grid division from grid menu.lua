@@ -1,7 +1,9 @@
 -- @description Select previous grid division from grid menu
--- @version 1.6
--- @author Ludovic SANSONE for Reaper Accessible
+-- @version 1.7
+-- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 reaper.Undo_BeginBlock()

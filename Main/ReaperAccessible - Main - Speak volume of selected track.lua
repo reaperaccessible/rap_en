@@ -1,7 +1,9 @@
 -- @description Speak volume of selected track
--- @version 1.3
--- @author Lee JULIEN for ReaperAccessible. 
+-- @version 1.4
+-- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 -- Récupère la piste sélectionnée

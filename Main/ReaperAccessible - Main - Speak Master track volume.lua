@@ -1,6 +1,9 @@
 -- @description Speak Master track volume
--- @version 1.1
--- @author Lee JULIEN for Reaper Accessible
+-- @version 1.2
+-- @author Lee JULIEN for ReaperAccessible
+-- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 -- Récupère la piste Master

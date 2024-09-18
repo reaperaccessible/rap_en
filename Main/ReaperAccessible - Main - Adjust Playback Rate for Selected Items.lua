@@ -1,7 +1,9 @@
 -- @description Adjust Playback Rate for Selected Items
--- @version 1.3
--- @author Lo-lo for ReaperAccessible. 
+-- @version 1.4
+-- @author Lo-lo for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 Adding log
 
 
 -- Start of undo block

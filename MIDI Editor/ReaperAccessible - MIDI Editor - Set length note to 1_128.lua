@@ -1,6 +1,6 @@
 -- @description Set length note to 1/128
 -- @version 1.1
--- @author Ludovic SANSONE for Reaper Accessible
+-- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=midi_editor] .
 
 

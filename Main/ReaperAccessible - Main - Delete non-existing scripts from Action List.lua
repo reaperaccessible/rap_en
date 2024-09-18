@@ -2,6 +2,8 @@
 -- @version 1.0
 -- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 -- Fonction pour supprimer les espaces au début d'une chaîne

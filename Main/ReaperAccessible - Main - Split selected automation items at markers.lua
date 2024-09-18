@@ -1,7 +1,9 @@
 -- @description Split selected automation items at markers
--- @version 1.0
--- @author Erwin Goossen for Reaper Accessible
+-- @version 1.1
+-- @author Erwin Goossen for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 local UNDO_STATE_TRACKCFG = 1

@@ -1,7 +1,9 @@
 -- @description Export selected item to RS5K instance, with same sample on all notes
--- @version 1.4
--- @author Ludovic SANSONE for Reaper Accessible
+-- @version 1.5
+-- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 local script_title = "Export selected item to RS5K instance, with same sample on all notes"

@@ -1,6 +1,6 @@
 -- @description Start and Stop project playback from Media Explorer
 -- @version 1.1
--- @author Ludovic SANSONE for Reaper Accessible
+-- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=mediaexplorer] .
 
 

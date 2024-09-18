@@ -1,6 +1,6 @@
 -- @description Delete notes whose velocity is lower than entered value
 -- @version 1.0
--- @author Ludovic SANSONE for Reaper Accessible
+-- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=midi_editor] .
 
 

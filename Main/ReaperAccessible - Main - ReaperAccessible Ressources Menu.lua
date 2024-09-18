@@ -1,7 +1,9 @@
--- @description Opens a menu containing the resources offered by ReaperAccessible.
--- @version 1.2
--- @author Lee JULIEN for Reaper Accessible
+-- @description ReaperAccessible Ressources Menu
+-- @version 1.3
+-- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 -- Fonction pour ouvrir une page web

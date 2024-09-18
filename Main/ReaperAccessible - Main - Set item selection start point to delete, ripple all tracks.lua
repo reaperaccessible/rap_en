@@ -1,7 +1,9 @@
--- @description Définir le point de début de sélection d'Objet à supprimer, ripple toute les pistes
--- @version 1.1
--- @author Lee JULIEN pour Reaper Accessible
+-- @description Set item selection start point to delete, ripple all tracks
+-- @version 1.2
+-- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 -- Sélection temporelle: Définir le point de début

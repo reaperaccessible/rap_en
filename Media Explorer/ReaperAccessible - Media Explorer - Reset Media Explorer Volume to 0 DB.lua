@@ -1,6 +1,6 @@
 -- @description Reset Media Explorer Volume to 0 DB
 -- @version 1.1
--- @author Ludovic SANSONE for Reaper Accessible
+-- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=mediaexplorer] .
 
 

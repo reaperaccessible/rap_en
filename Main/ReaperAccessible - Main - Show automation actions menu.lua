@@ -1,24 +1,29 @@
--- @description Displays a menu containing different automation actions
--- @version 1.1
--- @author Ludovic SANSONE for Reaper Accessible
+-- @description Show automation actions menu
+-- @version 1.6
+-- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
+-- Initialise l'interface graphique
 gfx.init()
 
+-- Affiche un menu et stocke la sélection de l'utilisateur
 local selection = gfx.showmenu(
-    "Load an automation Item\
-    |Save automation item\
-    |Toggle Automation item Loop\
-    |Split selected automation items at markers\
-    |Convert selected envelope points to automation item\
-    |Move left edge of selected automation item to start of time selection\
-    |Move right edge of selected automation item to end of time selection\
-    |Select all automation items of selected track\
-    |Select all automation items on all tracks\
-    |Set selected envelope points to the value of first selected point\
-    |Always create new automation items when writing automation")
+    "Charger un Objet d'Automatisation\
+    |Sauvegarder l'Objet d'Automatisation\
+    |Basculer la boucle d'Objet d'automatisation\
+    |Scinder les Objets d'automatisation sélectionnés aux marqueurs\
+    |Convertir les points d'enveloppe sélectionnés en Objet d'automatisation\
+    |Déplacer le bord gauche des Objets d'automatisation sélectionnés au début de la sélection temporelle\
+    |Déplacer le bord droit des Objets d'automatisation sélectionnés à la fin de la sélection temporelle\
+    |Sélectionner tous les Objets d'automatisation de la piste sélectionnée\
+    |Sélectionner tous les Objets d'automatisation de toutes les pistes\
+    |Définir les points d'enveloppe sélectionnés sur la valeur du premier point sélectionné\
+    |Toujours créer de nouveaux Objets d'automatisation lors de l'écriture de l'automatisation")
 
+-- Définit un dictionnaire associant des numéros à des identifiants de commande
 local dict = {
     {1.0, "42093"},
     {2.0, "42092"},
@@ -33,6 +38,7 @@ local dict = {
     {11.0, "42212"}
 }
 
+-- Fonction pour obtenir l'identifiant de commande correspondant à la sélection
 function getCoommandID(sel, d)
     for i = 1, #d do
         if sel == d[i][1] then
@@ -42,14 +48,19 @@ function getCoommandID(sel, d)
     return ""
 end
 
+-- Obtient l'identifiant de commande correspondant à la sélection de l'utilisateur
 local commandID = getCoommandID(selection, dict)
 
+-- Vérifie si un identifiant de commande valide a été trouvé
 if commandID == "" then
     return
 else
+    -- Convertit l'identifiant de commande en identifiant Reaper
     local reaperCommandID = reaper.NamedCommandLookup(commandID)
+    -- Exécute la commande Reaper correspondante
     reaper.Main_OnCommand(reaperCommandID, 0)
     return
 end
 
-gfx.quit()  
+-- Ferme l'interface graphique
+gfx.quit()

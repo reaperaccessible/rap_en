@@ -1,6 +1,6 @@
 -- @description Increase or decrease velocity between 2 limits entered by user with tension
 -- @version 1.2
--- @author Lee JULIEN pour Reaper Accessible augmented by Chessel
+-- @author Lee JULIEN for ReaperAccessible augmented by Chessel
 -- @provides [main=midi_editor] .
 
 

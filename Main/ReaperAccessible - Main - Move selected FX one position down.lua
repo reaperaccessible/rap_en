@@ -1,7 +1,9 @@
 -- @description Move selected FX one position down
--- @version 1.1
--- @author Lee JULIEN for Reaper Accessible
+-- @version 1.2
+-- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 -- Move selected FX down in chain for selected tracks

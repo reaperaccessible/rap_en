@@ -1,7 +1,9 @@
 -- @description Select item from its number
--- @version 1.1
--- @author Lo-lo for ReaperAccessible. 
+-- @version 1.2
+-- @author Lo-lo for ReaperAccessible
 -- @provides [main=main] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 -- OSARA: Ignore the next OSARA message

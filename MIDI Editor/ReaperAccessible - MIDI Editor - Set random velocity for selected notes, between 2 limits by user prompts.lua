@@ -1,6 +1,6 @@
 -- @description Set random velocity for selected notes, between 2 limits by user prompts
 -- @version 1.1
--- @author Ludovic SANSONE for Reaper Accessible
+-- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=midi_editor] .
 
 
