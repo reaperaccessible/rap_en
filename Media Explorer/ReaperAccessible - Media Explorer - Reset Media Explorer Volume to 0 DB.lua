@@ -1,7 +1,9 @@
 -- @description Reset Media Explorer Volume to 0 DB
--- @version 1.1
+-- @version 1.2
 -- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=mediaexplorer] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 function GetMediaExplorer()

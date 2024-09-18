@@ -1,9 +1,9 @@
 -- @description Close selected track folder from any its tracks
--- @version 1.4
+-- @version 1.5
 -- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
---   # 2024-09-18 Adding log
+--   # 2024-09-18 - Adding log
 
 
 -- Début du bloc d'annulation

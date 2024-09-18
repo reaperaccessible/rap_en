@@ -1,9 +1,9 @@
 -- @description Convert selected envelope Points to automation item
--- @version 1.2
+-- @version 1.3
 -- @author Erwin Goossen for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
---   # 2024-09-18 - The code is now commented.
+--   # 2024-09-18 - The code is now commented
 
 
 -- Fonction pour faire énoncer ou afficher un message

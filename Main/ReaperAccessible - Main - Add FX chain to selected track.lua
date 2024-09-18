@@ -1,9 +1,9 @@
 -- @description Add FX chain to selected track
--- @version 1.4
+-- @version 1.5
 -- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
---   # 2024-09-18 The code is now commented.
+--   # 2024-09-18 - The code is now commented
 
 
 -- Fonction pour ajouter un chunk à une piste

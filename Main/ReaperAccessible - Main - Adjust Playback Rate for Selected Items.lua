@@ -3,7 +3,7 @@
 -- @author Lo-lo for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
---   # 2024-09-18 Adding log
+--   # 2024-09-18 - Adding log
 
 
 -- Start of undo block

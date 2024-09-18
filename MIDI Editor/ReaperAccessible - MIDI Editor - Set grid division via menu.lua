@@ -1,7 +1,9 @@
 -- @description Set grid division via menu
--- @version 1.0
+-- @version 1.1
 -- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=midi_editor] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 local ret, grid = reaper.GetSetProjectGrid(0, 0)

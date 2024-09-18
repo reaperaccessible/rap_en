@@ -1,9 +1,9 @@
 -- @description Close all track folders in project
--- @version 1.4
+-- @version 1.5
 -- @author Lee JULIEN For ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
---   # 2024-09-18 Adding log
+--   # 2024-09-18 - Adding log
 
 
 -- Fonction vérifiant si la piste placée en paramètre est bien un dossier

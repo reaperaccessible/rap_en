@@ -1,7 +1,9 @@
 -- @description Note length set to half of current value
--- @version 1.1
+-- @version 1.2
 -- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=midi_editor] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 reaper.Undo_BeginBlock()

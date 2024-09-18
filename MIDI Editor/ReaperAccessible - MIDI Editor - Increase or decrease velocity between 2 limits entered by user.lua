@@ -1,7 +1,9 @@
 -- @description Increase or decrease velocity between 2 limits entered by user with tension
--- @version 1.2
+-- @version 1.3
 -- @author Lee JULIEN for ReaperAccessible augmented by Chessel
 -- @provides [main=midi_editor] .
+-- @changelog
+--   # 2024-09-18 - Adding log
 
 
 function Msg(param)
