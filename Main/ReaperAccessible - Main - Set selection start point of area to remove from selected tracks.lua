@@ -1,9 +1,10 @@
 -- @description Set selection start point of area to remove from selected tracks
--- @version 1.2
+-- @version 1.3
 -- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
 --   # 2024-09-18 - Adding log
+--   # 2024-09-22 - Fixed spoken message
 
 
 -- Sélection temporelle: Définir le point de début
@@ -18,4 +19,4 @@ reaper.Main_OnCommand(commandId1, 0)
 -- Transport: Lecture
 reaper.Main_OnCommand(1007, 0)
 
-reaper.osara_outputMessage("Deleted area start point")
+reaper.osara_outputMessage("Area start point deleted")

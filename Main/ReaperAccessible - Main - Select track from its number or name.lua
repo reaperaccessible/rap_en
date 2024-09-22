@@ -1,9 +1,10 @@
 -- @description Select track from its number or name
--- @version 1.5
+-- @version 1.6
 -- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
 --   # 2024-09-18 - Adding log
+--   # 2024-09-22 - Translation of messages into English
 
 
 -- Fonction pour vérifier si une piste est un dossier
@@ -23,7 +24,7 @@ function selectTrackFromNumber(trackNumber)
     local trackCount = reaper.CountTracks(0)
 
     if trackCount == 0 then
-        reaper.osara_outputMessage("Aucune piste dans votre projet")
+        reaper.osara_outputMessage("No track in your project")
         return
     end
 
@@ -116,7 +117,7 @@ function selectTrackFromPartialName(partialName)
 
     -- Si aucune piste n'a été trouvée, afficher un message dans une boîte de dialogue
     if not found then
-        reaper.MB("Aucune piste trouvée contenant '" .. partialName .. "'.", "Aucun résultat.", 0)
+        reaper.MB("No tracks found containing '" .. partialName .. "'.", "No results.", 0)
     end
 end
 
@@ -125,7 +126,7 @@ function announceSelectedTrackName()
     local countSelTrack = reaper.CountSelectedTracks(0)
 
     if countSelTrack == 0 then
-        reaper.osara_outputMessage("Aucune piste sélectionnée")
+        reaper.osara_outputMessage("No track selected")
         return
     end
 
@@ -136,7 +137,7 @@ function announceSelectedTrackName()
         local _, trackName = reaper.GetTrackName(track)
         reaper.osara_outputMessage(trackName)
     else
-        reaper.osara_outputMessage("Aucune piste dans votre projet")
+        reaper.osara_outputMessage("No track in your project")
     end
 end
 
@@ -146,12 +147,12 @@ function main()
 
     -- Vérifier si le projet contient des pistes
     if trackCount == 0 then
-        reaper.osara_outputMessage("Aucune piste dans votre projet")
+        reaper.osara_outputMessage("No track in your project")
         return
     end
 
     -- Récupérer la saisie de l'utilisateur
-    local retval, userInput = reaper.GetUserInputs("Recherche de piste", 1, "Entrez une partie du nom ou le numéro de la piste et appuyez sur Entrée.:", "")
+    local retval, userInput = reaper.GetUserInputs("Track search", 1, "Enter part of track name or number and press Enter.:", "")
 
     -- Vérifier si l'utilisateur a annulé ou n'a rien entré
     if not retval or userInput == "" then

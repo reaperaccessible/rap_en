@@ -1,5 +1,5 @@
 ﻿-- @description Edit volume of all selected tracks
--- @version 1.2
+-- @version 1.3
 -- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
@@ -9,7 +9,7 @@
 local CountSelTrack = reaper.CountSelectedTracks(0)
 
 if CountSelTrack == 0 then
-    reaper.osara_outputMessage("Aucune piste sélectionnée")
+    reaper.osara_outputMessage("No track selected")
     return
 end
 

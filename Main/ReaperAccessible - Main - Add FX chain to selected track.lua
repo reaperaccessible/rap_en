@@ -1,5 +1,5 @@
 -- @description Add FX chain to selected track
--- @version 1.6
+-- @version 1.7
 -- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
@@ -22,7 +22,7 @@ function main()
     local tr = reaper.GetSelectedTrack2(0, 0, 1)
 
     if reaper.CountTracks(0) == 0 then
-        reaper.osara_outputMessage("Aucune piste dans votre projet")
+        reaper.osara_outputMessage("No track in your project.")
         return
     end
     if not tr then
@@ -42,5 +42,5 @@ end
 if reaper.CountTracks(0) > 0 then 
         main()
 else
-    reaper.osara_outputMessage("Aucune piste dans votre projet")
+    reaper.osara_outputMessage("No track in your project.")
 end

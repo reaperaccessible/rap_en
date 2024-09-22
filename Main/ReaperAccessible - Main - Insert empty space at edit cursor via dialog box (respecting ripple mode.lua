@@ -1,5 +1,5 @@
 -- @description Insert empty space at edit cursor via dialog box (respecting ripple mode
--- @version 1.1
+-- @version 1.2
 -- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
@@ -122,15 +122,15 @@ function Main()
   
   reaper.GetSet_LoopTimeRange(true, false, time_start, time_end, false)
   
-  local message = string.format("Espace vide inséré : %.2f secondes", value)
+  local message = string.format("Empty space inserted: %.2f secondes", value)
   reaper.osara_outputMessage(message)
 end
 
 function Init()
   local ripple_mode = GetRippleMode()
   if ripple_mode == 0 then
-    local message = "Le mode ripple est désactivé. Vous devez régler le mode ripple par piste ou toutes les pistes pour utiliser ce script."
-    reaper.ShowMessageBox(message, "Avertissement", 0)
+    local message = "Ripple mode is disabled. You must set ripple mode per track or all tracks to use this script."
+    reaper.ShowMessageBox(message, "Warning", 0)
     reaper.osara_outputMessage(message)
     return
   end

@@ -1,5 +1,5 @@
 -- @description Close selected track folder from any its tracks
--- @version 1.5
+-- @version 1.6
 -- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
@@ -43,7 +43,7 @@ function selectCurrentTrackFolder(track)
         local trackNumber = reaper.GetMediaTrackInfo_Value(track, "IP_TRACKNUMBER")
         
         if trackDepth <= 0 then
-            reaper.osara_outputMessage("Cette piste n'est pas dans un dossier")
+            reaper.osara_outputMessage("This track is not in a folder")
             return
         else
             for i = trackNumber, 1, -1 do
@@ -59,7 +59,7 @@ function selectCurrentTrackFolder(track)
 end
 
 if reaper.CountTracks(0) < 1 then
-    reaper.osara_outputMessage("Aucune piste dans votre projet")
+    reaper.osara_outputMessage("No track in your project")
     return
 end
 
@@ -68,7 +68,7 @@ local tr = reaper.GetSelectedTrack2(0, 0, 1)
 
 -- Si aucune piste n'est sélectionnée, on informe l'utilisateur
 if not tr then
-    reaper.osara_outputMessage("Aucune piste sélectionnée")
+    reaper.osara_outputMessage("No tracks are selected")
     return
 end
 
@@ -80,10 +80,10 @@ if status then
     if reaper.GetMediaTrackInfo_Value(tr, "I_FOLDERCOMPACT") ~= 2 then
         reaper.SetMediaTrackInfo_Value(tr, "I_FOLDERCOMPACT", 2)
         local _, name = reaper.GetTrackName(tr)
-        reaper.osara_outputMessage("Dossier "..name.." fermé")
+        reaper.osara_outputMessage("Folder "..name.." Closed")
     else
         local _, name = reaper.GetTrackName(tr)
-        reaper.osara_outputMessage(name.." est déjà fermé")
+        reaper.osara_outputMessage(name.." is already closed")
         return
     end
 elseif reaper.GetTrackDepth(tr) > 0 then
@@ -92,17 +92,17 @@ elseif reaper.GetTrackDepth(tr) > 0 then
         if reaper.GetMediaTrackInfo_Value(tr, "I_FOLDERCOMPACT") ~= 2 then
             reaper.SetMediaTrackInfo_Value(tr, "I_FOLDERCOMPACT", 2)
             local _, name = reaper.GetTrackName(tr)
-            reaper.osara_outputMessage("Dossier "..name.." fermé")
+            reaper.osara_outputMessage("Folder "..name.." Closed")
         else
             local _, name = reaper.GetTrackName(tr)
-            reaper.osara_outputMessage(name.." est déjà fermé")
+            reaper.osara_outputMessage(name.." is already closed")
             return
         end
     end
 else
     local _, name = reaper.GetTrackName(tr)
-    reaper.osara_outputMessage(name.." n'est pas un dossier")
+    reaper.osara_outputMessage(name.." is not a folder")
 end
 
 -- Fin du bloc d'annulation avec le message spécifié
-reaper.Undo_EndBlock("La fermeture du dossier", -1)
+reaper.Undo_EndBlock("Closing folder", -1)
