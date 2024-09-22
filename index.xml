@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="9188bc9d60e6c36a3361d5a348f93aefeffe5c65">
+<index version="1" name="ReaperAccessible scripts US" commit="371a0b949d5a6780831b2d07e0d43f73bd1a796c">
   <category name="DrumAccess">
     <reapack name="ReaperAccessible - DrumAccess - Disable Closed Microphones.lua" type="script" desc="Disable Closed Microphones for DrumAccess">
       <version name="1.1" author="Lee JULIEN for Reaper Accessible" time="2024-09-13T01:36:21Z">
@@ -114,6 +114,10 @@
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/9188bc9d60e6c36a3361d5a348f93aefeffe5c65/Main/ReaperAccessible%20-%20Main%20-%20Add%20FX%20chain%20to%20selected%20track.lua</source>
       </version>
+      <version name="1.7" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-22T14:33:56Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/371a0b949d5a6780831b2d07e0d43f73bd1a796c/Main/ReaperAccessible%20-%20Main%20-%20Add%20FX%20chain%20to%20selected%20track.lua</source>
+      </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Adjust Playback Rate for Selected Items.lua" type="script" desc="Adjust Playback Rate for Selected Items">
       <version name="1.1" author="Lo-lo for ReaperAccessible." time="2024-04-22T13:03:47Z">
@@ -160,6 +164,10 @@
       <version name="1.5" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-18T14:23:47Z">
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/25d91a2f4a1dee344167a932d686ab18bc929115/Main/ReaperAccessible%20-%20Main%20-%20Close%20selected%20track%20folder%20from%20any%20its%20tracks.lua</source>
+      </version>
+      <version name="1.6" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-22T14:33:56Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/371a0b949d5a6780831b2d07e0d43f73bd1a796c/Main/ReaperAccessible%20-%20Main%20-%20Close%20selected%20track%20folder%20from%20any%20its%20tracks.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Convert selected envelope Points to automation item.lua" type="script" desc="Convert selected envelope Points to automation item">
@@ -235,6 +243,10 @@
       <version name="1.2" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-18T13:49:14Z">
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Edit%20volume%20of%20all%20selected%20tracks.lua</source>
+      </version>
+      <version name="1.3" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-22T14:33:56Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/371a0b949d5a6780831b2d07e0d43f73bd1a796c/Main/ReaperAccessible%20-%20Main%20-%20Edit%20volume%20of%20all%20selected%20tracks.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Export each selected items to RS5K instances, (Drum mode).lua" type="script" desc="Export each selected items to RS5K instances, (Drum mode)">
@@ -405,6 +417,10 @@
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Insert%20empty%20space%20at%20edit%20cursor%20via%20dialog%20box%20(respecting%20ripple%20mode.lua</source>
       </version>
+      <version name="1.2" author="Lee JULIEN for ReaperAccessible" time="2024-09-22T14:33:56Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/371a0b949d5a6780831b2d07e0d43f73bd1a796c/Main/ReaperAccessible%20-%20Main%20-%20Insert%20empty%20space%20at%20edit%20cursor%20via%20dialog%20box%20(respecting%20ripple%20mode.lua</source>
+      </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Insert empty space from time selection (respecting ripple mode.lua" type="script" desc="Insert empty space from time selection (respecting ripple mode">
       <version name="1.2" author="Lee JULIEN for ReaperAccessible" time="2024-09-18T13:49:14Z">
@@ -416,6 +432,11 @@
       <version name="1.1" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-18T13:49:14Z">
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Last%20touched%20parameter%20step%20to%20clipboard.lua</source>
+      </version>
+      <version name="1.2" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-22T14:33:56Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log
+# 2024-09-22 - The code is now commented]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/371a0b949d5a6780831b2d07e0d43f73bd1a796c/Main/ReaperAccessible%20-%20Main%20-%20Last%20touched%20parameter%20step%20to%20clipboard.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Move edit cursor to start of current beat.eel" type="script" desc="Aller au début du temps précédent">
@@ -549,6 +570,11 @@
       <version name="1.3" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-18T13:49:14Z">
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Open%20selected%20track%20folder.lua</source>
+      </version>
+      <version name="1.4" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-22T14:33:56Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log
+# 2024-09-22 - Translation of messages into English]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/371a0b949d5a6780831b2d07e0d43f73bd1a796c/Main/ReaperAccessible%20-%20Main%20-%20Open%20selected%20track%20folder.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - ReaperAccessible Ressources Menu.lua" type="script" desc="ReaperAccessible Ressources Menu">
@@ -701,6 +727,11 @@
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Select%20track%20from%20its%20number%20or%20name.lua</source>
       </version>
+      <version name="1.6" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-22T14:33:56Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log
+# 2024-09-22 - Translation of messages into English]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/371a0b949d5a6780831b2d07e0d43f73bd1a796c/Main/ReaperAccessible%20-%20Main%20-%20Select%20track%20from%20its%20number%20or%20name.lua</source>
+      </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Set autopunch selection end point.lua" type="script" desc="Set autopunch selection end point">
       <version name="1.0" author="Lee JULIEN for Reaper Accessible" time="2024-04-17T12:25:03Z">
@@ -764,6 +795,11 @@
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Set%20item%20selection%20start%20point%20to%20delete,%20ripple%20all%20tracks.lua</source>
       </version>
+      <version name="1.3" author="Lee JULIEN for ReaperAccessible" time="2024-09-22T14:33:56Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log
+# 2024-09-22 - Translation of messages into English]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/371a0b949d5a6780831b2d07e0d43f73bd1a796c/Main/ReaperAccessible%20-%20Main%20-%20Set%20item%20selection%20start%20point%20to%20delete,%20ripple%20all%20tracks.lua</source>
+      </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Set selection end point of area to remove from selected tracks.lua" type="script" desc="Set selection end point of area to remove from selected tracks">
       <version name="1.0" author="Lee JULIEN pour Reaper Accessible" time="2024-04-17T12:25:03Z">
@@ -787,6 +823,11 @@
       <version name="1.2" author="Lee JULIEN for ReaperAccessible" time="2024-09-18T13:49:14Z">
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Set%20selection%20start%20point%20of%20area%20to%20remove%20from%20selected%20tracks.lua</source>
+      </version>
+      <version name="1.3" author="Lee JULIEN for ReaperAccessible" time="2024-09-22T14:33:56Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log
+# 2024-09-22 - Fixed spoken message]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/371a0b949d5a6780831b2d07e0d43f73bd1a796c/Main/ReaperAccessible%20-%20Main%20-%20Set%20selection%20start%20point%20of%20area%20to%20remove%20from%20selected%20tracks.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Show automation actions menu.lua" type="script" desc="Show automation actions menu">
