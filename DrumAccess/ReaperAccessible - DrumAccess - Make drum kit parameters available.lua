@@ -1,5 +1,5 @@
 -- @description Make drum kit parameters available for DrumAccess
--- @version 1.2
+-- @version 1.4
 -- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog

@@ -1,5 +1,5 @@
 -- @description Disable Room or Room A1 Microphones for DrumAccess
--- @version 1.4
+-- @version 1.6
 -- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog

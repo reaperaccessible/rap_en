@@ -1,5 +1,5 @@
 -- @description Disable OverHead Microphones For DrumAccess
--- @version 1.3
+-- @version 1.5
 -- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
