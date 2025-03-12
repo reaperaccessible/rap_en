@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="f6baef8882c202c9b2b1f01a18e4f840082ae184">
+<index version="1" name="ReaperAccessible scripts US" commit="ec9fd3b86baeb618b2d4e0888f67a783c0400026">
   <category name="DrumAccess">
     <reapack name="ReaperAccessible - DrumAccess - Disable Closed Microphones.lua" type="script" desc="Disable Closed Microphones for DrumAccess">
       <version name="1.1" author="Lee JULIEN for Reaper Accessible" time="2024-09-13T01:36:21Z">
@@ -432,6 +432,12 @@
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Insert%20empty%20item%20for%20each%20selected%20track%20depending%20ripple%20mode.lua</source>
       </version>
+      <version name="1.3" author="Lee Julien for ReaperAccessible" time="2025-03-12T00:05:18Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log
+# 2025-03-11 - Fixed several bugs
+# 2025-03-11 - Adding a message if sws is not installed]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/ec9fd3b86baeb618b2d4e0888f67a783c0400026/Main/ReaperAccessible%20-%20Main%20-%20Insert%20empty%20item%20for%20each%20selected%20track%20depending%20ripple%20mode.lua</source>
+      </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Insert empty space at edit cursor via dialog box (respecting ripple mode.lua" type="script" desc="Insert empty space at edit cursor via dialog box (respecting ripple mode">
       <version name="1.0" author="Lee JULIEN for Reaper Accessible" time="2024-09-12T18:56:06Z">
@@ -444,6 +450,12 @@
       <version name="1.2" author="Lee JULIEN for ReaperAccessible" time="2024-09-22T14:33:56Z">
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/371a0b949d5a6780831b2d07e0d43f73bd1a796c/Main/ReaperAccessible%20-%20Main%20-%20Insert%20empty%20space%20at%20edit%20cursor%20via%20dialog%20box%20(respecting%20ripple%20mode.lua</source>
+      </version>
+      <version name="1.3" author="Lee JULIEN for ReaperAccessible" time="2025-03-12T00:05:18Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log
+# 2025-03-11 - Bug fixed for ripple mode all tracks
+# 2025-03-11 - Adding a message for not installed Sws]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/ec9fd3b86baeb618b2d4e0888f67a783c0400026/Main/ReaperAccessible%20-%20Main%20-%20Insert%20empty%20space%20at%20edit%20cursor%20via%20dialog%20box%20(respecting%20ripple%20mode.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Insert empty space from time selection (respecting ripple mode.lua" type="script" desc="Insert empty space from time selection (respecting ripple mode">
