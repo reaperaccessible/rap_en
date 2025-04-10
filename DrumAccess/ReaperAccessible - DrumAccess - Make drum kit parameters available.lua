@@ -1,14 +1,23 @@
--- @description Make drum kit parameters available for DrumAccess
--- @version 1.4
+-- @description Make all drum kit parameters available for DrumAccess
+-- @version 1.5
 -- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
 --   # 2024-09-18 - Code improvement
+--   # 2025-04-08 - Adaptation of the code so that it is compatible with Drumaccess V2
 
 
 -- Fonction pour ouvrir la fenêtre FX d'une piste
 local function openFXWindow(track)
-    reaper.TrackFX_Show(track, 0, 3)
+    -- récupérer le nom de l'fx 0
+    retval, fx_name = reaper.TrackFX_GetFXName(track, 0, "")
+    -- vérifier la présence d'une redirrection de cymbale
+    if fx_name:find("DrumAccess Cymbal Mapper") then
+      fxptr=1
+    else
+      fxptr=0
+    end
+    reaper.TrackFX_Show(track, fxptr, 3)
 end
 
 -- Fonction pour énoncer un message via OSARA
@@ -29,14 +38,14 @@ local function main()
     
     local selectedTrack = reaper.GetSelectedTrack(0, 0)
     if not selectedTrack then
-        return reaper.MB("You must select the DrumAccess track folder.", "Erreur", 0)
+        return reaper.MB("You must select the DrumAccess folder track.", "Erreur", 0)
     end
     
     local folderTrack = reaper.GetMediaTrackInfo_Value(selectedTrack, "P_PARTRACK")
     if folderTrack == 0 then
         local depth = reaper.GetMediaTrackInfo_Value(selectedTrack, "I_FOLDERDEPTH")
         if depth ~= 1 then
-            return reaper.MB("La piste sélectionnée n'est pas la piste dossier DrumAccess.", "Erreur", 0)
+            return reaper.MB("The selected track is not a DrumAccess folder track.", "Erreur", 0)
         end
     end
     
@@ -52,7 +61,7 @@ local function main()
     reaper.defer(function()
         local start_time = reaper.time_precise()
         local function wait()
-            if reaper.time_precise() - start_time >= 1 then  -- 1 seconde de délai
+            if reaper.time_precise() - start_time >= 1 then  -- 1 second delay
                 showMessageAndSpeak(message)
                 reaper.Main_OnCommand(reaper.NamedCommandLookup("_S&M_WNCLS3"), 0)
             else

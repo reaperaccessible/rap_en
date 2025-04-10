@@ -1,5 +1,5 @@
 -- @description Disable Room or Room A1 Microphones for DrumAccess
--- @version 1.6
+-- @version 1.7
 -- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
@@ -10,11 +10,11 @@
 local numSelectedTracks = reaper.CountSelectedTracks(0)
 
 if numSelectedTracks == 0 then
-    return reaper.osara_outputMessage("This track is not the DrumAccess folder track. Select the DrumAccess folder track and trigger this script again.")
+    return reaper.osara_outputMessage("This track is not a DrumAccess folder track. Select the DrumAccess folder track and run this script.")
 end
 
 local keywordDetected = false
-local keyword = "Room Volume", "Room Mono Volume"
+local keyword = { "Room Volume", "Room Mono Volume" }
 
 -- Parcourir toutes les pistes sélectionnées
 for i = 0, numSelectedTracks - 1 do
@@ -36,8 +36,8 @@ end
 
 if keywordDetected then
     reaper.defer(function()
-        reaper.osara_outputMessage("Room, or Room A1 microphones are disabled.")
+        reaper.osara_outputMessage("The Room or Room A1 microphone is disabled.")
     end)
 else
-    reaper.osara_outputMessage("No parameters are displayed, the selected track does not contain DrumAccess FX, or this kit piece does not offer Room or Room A1 microphone. Please select the DrumAccess folder track, trigger the script ReaperAccessible - DrumAccess - Make drum kit parameters available, select a track that contains a DrumAccess FX, and triggering this action again.")
+    reaper.osara_outputMessage("No parameters are available. The selected track does not contain a DrumAccess FX, or this kit piece does not offer a Room or Room A1 microphone. Please select the DrumAccess folder track, run the script ReaperAccessible - DrumAccess - Make Drum Kit parameters Available, select a track containing a DrumAccess FX, and run this script again.")
 end
