@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="e7049791ad4f741828f5928ccbe5f5e0912318c0">
+<index version="1" name="ReaperAccessible scripts US" commit="49615337607fd2cb7ea35274100666bdb1eaa3bd">
   <category name="DrumAccess">
     <reapack name="ReaperAccessible - DrumAccess - Disable Closed Microphones.lua" type="script" desc="Disable Closed Microphones for DrumAccess">
       <version name="1.1" author="Lee JULIEN for Reaper Accessible" time="2024-09-13T01:36:21Z">
@@ -101,6 +101,12 @@
         <changelog><![CDATA[# 2024-09-18 - Code improvement
 # 2025-04-08 - Adaptation of the code so that it is compatible with Drumaccess V2]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/e7049791ad4f741828f5928ccbe5f5e0912318c0/DrumAccess/ReaperAccessible%20-%20DrumAccess%20-%20Make%20drum%20kit%20parameters%20available.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - DrumAccess - Stereo Flip Toggle.lua" type="script" desc="Reverse the panoramic of the selected tracks">
+      <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-04-27T19:10:22Z">
+        <changelog><![CDATA[# 2025-04-24 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/49615337607fd2cb7ea35274100666bdb1eaa3bd/DrumAccess/ReaperAccessible%20-%20DrumAccess%20-%20Stereo%20Flip%20Toggle.lua</source>
       </version>
     </reapack>
   </category>
