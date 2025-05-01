@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="49615337607fd2cb7ea35274100666bdb1eaa3bd">
+<index version="1" name="ReaperAccessible scripts US" commit="62700cdbcba184776c61e31e8424e1755080fcf8">
   <category name="DrumAccess">
     <reapack name="ReaperAccessible - DrumAccess - Disable Closed Microphones.lua" type="script" desc="Disable Closed Microphones for DrumAccess">
       <version name="1.1" author="Lee JULIEN for Reaper Accessible" time="2024-09-13T01:36:21Z">
@@ -103,10 +103,14 @@
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/e7049791ad4f741828f5928ccbe5f5e0912318c0/DrumAccess/ReaperAccessible%20-%20DrumAccess%20-%20Make%20drum%20kit%20parameters%20available.lua</source>
       </version>
     </reapack>
-    <reapack name="ReaperAccessible - DrumAccess - Stereo Flip Toggle.lua" type="script" desc="Reverse the panoramic of the selected tracks">
+    <reapack name="ReaperAccessible - DrumAccess - Stereo Flip Toggle.lua" type="script" desc="Stereo Flip Toggle">
       <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-04-27T19:10:22Z">
         <changelog><![CDATA[# 2025-04-24 - New script]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/49615337607fd2cb7ea35274100666bdb1eaa3bd/DrumAccess/ReaperAccessible%20-%20DrumAccess%20-%20Stereo%20Flip%20Toggle.lua</source>
+      </version>
+      <version name="1.1" author="Lee JULIEN for ReaperAccessible" time="2025-05-01T18:04:47Z">
+        <changelog><![CDATA[# 2025-04-24 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/62700cdbcba184776c61e31e8424e1755080fcf8/DrumAccess/ReaperAccessible%20-%20DrumAccess%20-%20Stereo%20Flip%20Toggle.lua</source>
       </version>
     </reapack>
   </category>
@@ -1496,6 +1500,10 @@
       <version name="1.2" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-18T14:23:47Z">
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="midi_editor">https://github.com/reaperaccessible/rap_en/raw/25d91a2f4a1dee344167a932d686ab18bc929115/MIDI%20Editor/ReaperAccessible%20-%20MIDI%20Editor%20-%20Set%20length%20note%20to%201_8.lua</source>
+      </version>
+      <version name="1.3" author="Ludovic SANSONE for ReaperAccessible" time="2025-05-01T18:04:47Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
+        <source main="midi_editor">https://github.com/reaperaccessible/rap_en/raw/62700cdbcba184776c61e31e8424e1755080fcf8/MIDI%20Editor/ReaperAccessible%20-%20MIDI%20Editor%20-%20Set%20length%20note%20to%201_8.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - MIDI Editor - Set length note to 1_8T.lua" type="script" desc="Set length note to 1/8T">
