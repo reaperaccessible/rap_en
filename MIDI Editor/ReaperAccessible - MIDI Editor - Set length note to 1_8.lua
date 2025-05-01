@@ -1,5 +1,5 @@
 -- @description Set length note to 1/8
--- @version 1.2
+-- @version 1.3
 -- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=midi_editor] .
 -- @changelog
@@ -8,7 +8,7 @@
 
 reaper.Undo_BeginBlock()
 
-local commandId = 41630
+local commandId = 41629
 reaper.MIDIEditor_LastFocused_OnCommand(commandId, 0)
 reaper.osara_outputMessage("Note length set to 1/8")
 

@@ -1,5 +1,5 @@
--- @description Reverse the panoramic of the selected tracks
--- @version 1.0
+-- @description Stereo Flip Toggle
+-- @version 1.1
 -- @author Lee JULIEN for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
