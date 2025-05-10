@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="62700cdbcba184776c61e31e8424e1755080fcf8">
+<index version="1" name="ReaperAccessible scripts US" commit="926f719b1b0bbfd0ae77c283b359d85fd6c89c23">
   <category name="DrumAccess">
     <reapack name="ReaperAccessible - DrumAccess - Disable Closed Microphones.lua" type="script" desc="Disable Closed Microphones for DrumAccess">
       <version name="1.1" author="Lee JULIEN for Reaper Accessible" time="2024-09-13T01:36:21Z">
@@ -135,6 +135,12 @@
     </reapack>
   </category>
   <category name="Main">
+    <reapack name="Reaperaccessible - Jamulus - Toggle Mute of track (exact name).lua" type="script" desc="Toggle Mute of track (exact name)">
+      <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-05-10T23:15:31Z">
+        <changelog><![CDATA[# 2025-05-10 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/926f719b1b0bbfd0ae77c283b359d85fd6c89c23/Main/Reaperaccessible%20-%20Jamulus%20-%20Toggle%20Mute%20of%20track%20(exact%20name).lua</source>
+      </version>
+    </reapack>
     <reapack name="ReaperAccessible - Main - Add FX chain to selected track.lua" type="script" desc="Add FX chain to selected track">
       <version name="1.0" author="Ludovic SANSONE for Reaper Accessible" time="2024-04-17T12:25:03Z">
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/d6a112c8ded180a62013335a21033a8a27810f65/Main/ReaperAccessible%20-%20Main%20-%20Add%20FX%20chain%20to%20selected%20track.lua</source>
