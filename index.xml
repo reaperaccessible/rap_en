@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="38ee35947369ee1b7c7b78e50def9385240441f8">
+<index version="1" name="ReaperAccessible scripts US" commit="a5b64a432c7f32b8a5890b91717fabc51652a741">
   <category name="DrumAccess">
     <reapack name="ReaperAccessible - DrumAccess - Disable Closed Microphones.lua" type="script" desc="Disable Closed Microphones for DrumAccess">
       <version name="1.1" author="Lee JULIEN for Reaper Accessible" time="2024-09-13T01:36:21Z">
@@ -642,6 +642,11 @@
       <version name="1.4" author="Lee JULIEN for ReaperAccessible" time="2024-09-18T15:27:17Z">
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/1b9e9700dbf3fab42827407d7ac894eb5e07e511/Main/ReaperAccessible%20-%20Main%20-%20ReaperAccessible%20Ressources%20Menu.lua</source>
+      </version>
+      <version name="1.5" author="Lee JULIEN for ReaperAccessible" time="2025-05-26T11:48:22Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log
+# 2025-05-26 - Link Corection]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/a5b64a432c7f32b8a5890b91717fabc51652a741/Main/ReaperAccessible%20-%20Main%20-%20ReaperAccessible%20Ressources%20Menu.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Remove autopunch selection points.lua" type="script" desc="Remove autopunch selection points">
