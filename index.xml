@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="a5b64a432c7f32b8a5890b91717fabc51652a741">
+<index version="1" name="ReaperAccessible scripts US" commit="3f868df5564bc3c671fd7c0a9d1f60f157ff9b35">
   <category name="DrumAccess">
     <reapack name="ReaperAccessible - DrumAccess - Disable Closed Microphones.lua" type="script" desc="Disable Closed Microphones for DrumAccess">
       <version name="1.1" author="Lee JULIEN for Reaper Accessible" time="2024-09-13T01:36:21Z">
@@ -139,6 +139,36 @@
       <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-05-10T23:15:31Z">
         <changelog><![CDATA[# 2025-05-10 - New script]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/926f719b1b0bbfd0ae77c283b359d85fd6c89c23/Main/Reaperaccessible%20-%20Jamulus%20-%20Toggle%20Mute%20of%20track%20(exact%20name).lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - KeySwitchAccess - Import KeySwitch File.lua" type="script" desc="Import KeySwitch File">
+      <version name="1.0" author="Ludovic SANSONE and Lee JULIEN for ReaperAccessible" time="2025-06-04T17:26:04Z">
+        <changelog><![CDATA[# 2025-05-13 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/3f868df5564bc3c671fd7c0a9d1f60f157ff9b35/Main/ReaperAccessible%20-%20KeySwitchAccess%20-%20Import%20KeySwitch%20File.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - KeySwitchAccess - Insert KeySwitch Notes.lua" type="script" desc="Insert KeySwitch Notes">
+      <version name="1.0" author="Ludovic SANSONE and Lee JULIEN for ReaperAccessible" time="2025-06-04T17:26:04Z">
+        <changelog><![CDATA[# 2025-05-13 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/3f868df5564bc3c671fd7c0a9d1f60f157ff9b35/Main/ReaperAccessible%20-%20KeySwitchAccess%20-%20Insert%20KeySwitch%20Notes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - KeySwitchAccess - Reset KeySwitch File.lua" type="script" desc="Reset KeySwitch File">
+      <version name="1.0" author="Ludovic SANSONE and Lee JULIEN for ReaperAccessible" time="2025-06-04T17:26:04Z">
+        <changelog><![CDATA[# 2025-05-13 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/3f868df5564bc3c671fd7c0a9d1f60f157ff9b35/Main/ReaperAccessible%20-%20KeySwitchAccess%20-%20Reset%20KeySwitch%20File.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - KeySwitchAccess - Start KeySwitch Speech.lua" type="script" desc="Start KeySwitch Speech">
+      <version name="2.0" author="Ludovic SANSONE and Lee JULIEN for ReaperAccessible" time="2025-06-04T17:26:04Z">
+        <changelog><![CDATA[# 2025-05-13 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/3f868df5564bc3c671fd7c0a9d1f60f157ff9b35/Main/ReaperAccessible%20-%20KeySwitchAccess%20-%20Start%20KeySwitch%20Speech.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - KeySwitchAccess - Stop KeySwitch Speech.lua" type="script" desc="Stop KeySwitch Speech">
+      <version name="1.0" author="Ludovic SANSONE and Lee JULIEN for ReaperAccessible" time="2025-06-04T17:26:04Z">
+        <changelog><![CDATA[# 2025-05-13 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/3f868df5564bc3c671fd7c0a9d1f60f157ff9b35/Main/ReaperAccessible%20-%20KeySwitchAccess%20-%20Stop%20KeySwitch%20Speech.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Add FX chain to selected track.lua" type="script" desc="Add FX chain to selected track">
