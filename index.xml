@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="c6991c8603f39c5297dde06a7db7b3811bf8d5ab">
+<index version="1" name="ReaperAccessible scripts US" commit="b4a4a41d82043186b1bb9749ecec40d0a8bae261">
   <category name="DrumAccess">
     <reapack name="ReaperAccessible - DrumAccess - Disable Closed Microphones.lua" type="script" desc="Disable Closed Microphones for DrumAccess">
       <version name="1.1" author="Lee JULIEN for Reaper Accessible" time="2024-09-13T01:36:21Z">
@@ -1021,6 +1021,11 @@
       <version name="1.3" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-18T13:49:14Z">
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Speak%20name%20of%20selected%20track.lua</source>
+      </version>
+      <version name="1.4" author="Ludovic SANSONE for ReaperAccessible" time="2025-07-17T01:13:44Z">
+        <changelog><![CDATA[# 2024-09-18 - Adding log
+# 2025-07-16 - The script now announces all selected tracks, including the master track]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/b4a4a41d82043186b1bb9749ecec40d0a8bae261/Main/ReaperAccessible%20-%20Main%20-%20Speak%20name%20of%20selected%20track.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Speak name of sends and returns of selected track.lua" type="script" desc="Speak name of sends and returns of selected track">
