@@ -1,30 +1,49 @@
 -- @description Speak name of selected track
--- @version 1.3
+-- @version 1.4
 -- @author Ludovic SANSONE for ReaperAccessible
 -- @provides [main=main] .
 -- @changelog
 --   # 2024-09-18 - Adding log
+--   # 2025-07-16 - The script now announces all selected tracks, including the master track
 
 
-local countSelTrack = reaper.CountSelectedTracks(0);
+-- OSARA wrapper
+local function osara_msg(text)
+    if reaper.osara_outputMessage then
+        reaper.osara_outputMessage(text)
+    else
+        reaper.ShowConsoleMsg("OSARA missing: " .. text)
+    end
+end
 
-if countSelTrack == 0 then
-    reaper.osara_outputMessage("No track selected")
+-- Count normal selected tracks
+local selCount = reaper.CountSelectedTracks(0)
+-- Check if master track is selected
+local master = reaper.GetMasterTrack(0)
+local masterSel = reaper.GetMediaTrackInfo_Value(master, "I_SELECTED") == 1
+
+-- If no selection at all, announce and exit
+if selCount == 0 and not masterSel then
+    osara_msg("No Track Selected")
     return
 end
 
-local trackNumber = reaper.CountTracks(0)
-local track = reaper.GetSelectedTrack2(0, 0, 1)
-
-
-local trackNum = reaper.GetMediaTrackInfo_Value(track, 'IP_TRACKNUMBER')
-
-
-
-
-if trackNumber > 0 then
-    local b, trackName = reaper.GetTrackName(track)
-    reaper.osara_outputMessage(trackName)
-else
-    reaper.osara_outputMessage("Aucune piste dans votre projet")
+-- Build list of labels
+local names = {}
+if masterSel then
+    table.insert(names, "Master")
 end
+
+for i = 0, selCount - 1 do
+    local tr = reaper.GetSelectedTrack(0, i)
+    local _, name = reaper.GetTrackName(tr, "")
+    if name == "" then
+        local num = math.floor(reaper.GetMediaTrackInfo_Value(tr, "IP_TRACKNUMBER") + 0.5)
+        name = tostring(num)
+    end
+    table.insert(names, name)
+end
+
+-- Concatenate, append phrase, and announce
+local msg = table.concat(names, ", ") .. " is selected"
+osara_msg(msg)
