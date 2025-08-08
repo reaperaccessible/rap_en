@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="b4a4a41d82043186b1bb9749ecec40d0a8bae261">
+<index version="1" name="ReaperAccessible scripts US" commit="1488909704e3cafbd1b7629fed26c196253e7e29">
   <category name="DrumAccess">
     <reapack name="ReaperAccessible - DrumAccess - Disable Closed Microphones.lua" type="script" desc="Disable Closed Microphones for DrumAccess">
       <version name="1.1" author="Lee JULIEN for Reaper Accessible" time="2024-09-13T01:36:21Z">
@@ -240,45 +240,6 @@
       <version name="1.4" author="Lo-lo for ReaperAccessible" time="2024-09-18T13:49:14Z">
         <changelog><![CDATA[# 2024-09-18 Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Adjust%20Playback%20Rate%20for%20Selected%20Items.lua</source>
-      </version>
-    </reapack>
-    <reapack name="ReaperAccessible - Main - Close all track folders in project.lua" type="script" desc="Close all track folders in project">
-      <version name="1.2" author="Lee JULIEN For Reaper Accessible" time="2024-04-19T14:21:22Z">
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/632f4e608737fd7cc957855b75c26702bc5317f7/Main/ReaperAccessible%20-%20Main%20-%20Close%20all%20track%20folders%20in%20project.lua</source>
-      </version>
-      <version name="1.3" author="Lee JULIEN For Reaper Accessible" time="2024-06-07T23:52:21Z">
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/92a0a343af5d82ee9f393a73759bb6c7ab08837c/Main/ReaperAccessible%20-%20Main%20-%20Close%20all%20track%20folders%20in%20project.lua</source>
-      </version>
-      <version name="1.4" author="Lee JULIEN For ReaperAccessible" time="2024-09-18T13:49:14Z">
-        <changelog><![CDATA[# 2024-09-18 Adding log]]></changelog>
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Close%20all%20track%20folders%20in%20project.lua</source>
-      </version>
-      <version name="1.5" author="Lee JULIEN For ReaperAccessible" time="2024-09-18T14:23:47Z">
-        <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/25d91a2f4a1dee344167a932d686ab18bc929115/Main/ReaperAccessible%20-%20Main%20-%20Close%20all%20track%20folders%20in%20project.lua</source>
-      </version>
-    </reapack>
-    <reapack name="ReaperAccessible - Main - Close selected track folder from any its tracks.lua" type="script" desc="Close selected track folder from any its tracks">
-      <version name="1.0" author="Ludovic SANSONE for Reaper Accessible" time="2024-04-17T12:25:03Z">
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/d6a112c8ded180a62013335a21033a8a27810f65/Main/ReaperAccessible%20-%20Main%20-%20Close%20selected%20track%20folder%20from%20any%20its%20tracks.lua</source>
-      </version>
-      <version name="1.2" author="Ludovic SANSONE for Reaper Accessible" time="2024-04-19T14:21:22Z">
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/632f4e608737fd7cc957855b75c26702bc5317f7/Main/ReaperAccessible%20-%20Main%20-%20Close%20selected%20track%20folder%20from%20any%20its%20tracks.lua</source>
-      </version>
-      <version name="1.3" author="Ludovic SANSONE for Reaper Accessible" time="2024-05-03T13:31:37Z">
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/b3ff8fc50e7279849678356a175f809f626a0fd4/Main/ReaperAccessible%20-%20Main%20-%20Close%20selected%20track%20folder%20from%20any%20its%20tracks.lua</source>
-      </version>
-      <version name="1.4" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-18T13:49:14Z">
-        <changelog><![CDATA[# 2024-09-18 Adding log]]></changelog>
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Close%20selected%20track%20folder%20from%20any%20its%20tracks.lua</source>
-      </version>
-      <version name="1.5" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-18T14:23:47Z">
-        <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/25d91a2f4a1dee344167a932d686ab18bc929115/Main/ReaperAccessible%20-%20Main%20-%20Close%20selected%20track%20folder%20from%20any%20its%20tracks.lua</source>
-      </version>
-      <version name="1.6" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-22T14:33:56Z">
-        <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/371a0b949d5a6780831b2d07e0d43f73bd1a796c/Main/ReaperAccessible%20-%20Main%20-%20Close%20selected%20track%20folder%20from%20any%20its%20tracks.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Convert selected envelope Points to automation item.lua" type="script" desc="Convert selected envelope Points to automation item">
@@ -652,18 +613,6 @@
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Move%20selected%20tracks%20up%20one%20row%20(if%20there%20is%20a%20folder,%20prompt%20to%20skip%20or%20includes).lua</source>
       </version>
     </reapack>
-    <reapack name="ReaperAccessible - Main - Open all track folders in project.lua" type="script" desc="Open all track folders in project">
-      <version name="1.2" author="Lee JULIEN For Reaper Accessible" time="2024-04-19T14:21:22Z">
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/632f4e608737fd7cc957855b75c26702bc5317f7/Main/ReaperAccessible%20-%20Main%20-%20Open%20all%20track%20folders%20in%20project.lua</source>
-      </version>
-      <version name="1.3" author="Lee JULIEN For Reaper Accessible" time="2024-06-07T23:52:21Z">
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/92a0a343af5d82ee9f393a73759bb6c7ab08837c/Main/ReaperAccessible%20-%20Main%20-%20Open%20all%20track%20folders%20in%20project.lua</source>
-      </version>
-      <version name="1.4" author="Lee JULIEN for ReaperAccessible" time="2024-09-18T13:49:14Z">
-        <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Open%20all%20track%20folders%20in%20project.lua</source>
-      </version>
-    </reapack>
     <reapack name="ReaperAccessible - Main - Open directories menu.lua" type="script" desc="Open directories menu">
       <version name="1.0" author="Ludovic SANSONE for Reaper Accessible" time="2024-04-17T12:25:03Z">
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/d6a112c8ded180a62013335a21033a8a27810f65/Main/ReaperAccessible%20-%20Main%20-%20Open%20directories%20menu.lua</source>
@@ -671,23 +620,6 @@
       <version name="1.1" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-18T13:49:14Z">
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Open%20directories%20menu.lua</source>
-      </version>
-    </reapack>
-    <reapack name="ReaperAccessible - Main - Open selected track folder.lua" type="script" desc="Open selected track folder">
-      <version name="1.0" author="Ludovic SANSONE for Reaper Accessible" time="2024-04-17T12:25:03Z">
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/d6a112c8ded180a62013335a21033a8a27810f65/Main/ReaperAccessible%20-%20Main%20-%20Open%20selected%20track%20folder.lua</source>
-      </version>
-      <version name="1.2" author="Ludovic SANSONE for Reaper Accessible" time="2024-04-19T14:21:22Z">
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/632f4e608737fd7cc957855b75c26702bc5317f7/Main/ReaperAccessible%20-%20Main%20-%20Open%20selected%20track%20folder.lua</source>
-      </version>
-      <version name="1.3" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-18T13:49:14Z">
-        <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Open%20selected%20track%20folder.lua</source>
-      </version>
-      <version name="1.4" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-22T14:33:56Z">
-        <changelog><![CDATA[# 2024-09-18 - Adding log
-# 2024-09-22 - Translation of messages into English]]></changelog>
-        <source main="main">https://github.com/reaperaccessible/rap_en/raw/371a0b949d5a6780831b2d07e0d43f73bd1a796c/Main/ReaperAccessible%20-%20Main%20-%20Open%20selected%20track%20folder.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - ReaperAccessible Ressources Menu.lua" type="script" desc="ReaperAccessible Ressources Menu">
@@ -1140,6 +1072,18 @@
       <version name="1.2" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-18T13:49:14Z">
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/16caa0c3bffd9eda85e5729b1d0bc4c397ea4024/Main/ReaperAccessible%20-%20Main%20-%20Toggle%20bypass%20selected%20FX%20on%20selected%20track.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - Main - Toggle open and close all folder tracks.lua" type="script" desc="Toggle open and close all folder tracks">
+      <version name="1.0" author="Lee JULIEN for ReaperAccessible" time="2025-08-08T16:04:29Z">
+        <changelog><![CDATA[1.0 - New script which merges the 2 scripts for open/close all folder tracks]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/1488909704e3cafbd1b7629fed26c196253e7e29/Main/ReaperAccessible%20-%20Main%20-%20Toggle%20open%20and%20close%20all%20folder%20tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - Main - Toggle open and close selected folder track.lua" type="script" desc="Toggle open and close selected folder track">
+      <version name="1.5" author="Lee JULIEN for ReaperAccessible" time="2025-08-08T16:04:29Z">
+        <changelog><![CDATA[1.5 - New script which replaces the 2 scripts for the open/close track folder.]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/1488909704e3cafbd1b7629fed26c196253e7e29/Main/ReaperAccessible%20-%20Main%20-%20Toggle%20open%20and%20close%20selected%20folder%20track.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Toggle, bind loop points to time selection.lua" type="script" desc="Toggle bind loop points to time selection">
