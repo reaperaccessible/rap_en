@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="1488909704e3cafbd1b7629fed26c196253e7e29">
+<index version="1" name="ReaperAccessible scripts US" commit="42a39479839831347a5e72331f069d811baf224c">
   <category name="DrumAccess">
     <reapack name="ReaperAccessible - DrumAccess - Disable Closed Microphones.lua" type="script" desc="Disable Closed Microphones for DrumAccess">
       <version name="1.1" author="Lee JULIEN for Reaper Accessible" time="2024-09-13T01:36:21Z">
@@ -521,6 +521,12 @@
         <changelog><![CDATA[# 2024-09-18 - Adding log
 # 2024-09-22 - The code is now commented]]></changelog>
         <source main="main">https://github.com/reaperaccessible/rap_en/raw/371a0b949d5a6780831b2d07e0d43f73bd1a796c/Main/ReaperAccessible%20-%20Main%20-%20Last%20touched%20parameter%20step%20to%20clipboard.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - Main - MIDI Pooled Items Tool .lua" type="script" desc="MIDI Pooled Items Tool">
+      <version name="1.0" author="Lee JULIEN pour ReaperAccessible" time="2025-11-24T02:26:07Z">
+        <changelog><![CDATA[# 2025-11-23 - New script]]></changelog>
+        <source main="main">https://github.com/reaperaccessible/rap_en/raw/42a39479839831347a5e72331f069d811baf224c/Main/ReaperAccessible%20-%20Main%20-%20MIDI%20Pooled%20Items%20Tool%20.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - Main - Move left edge of selected automation items to start of time selection.lua" type="script" desc="Move left edge of selected automation items to start of time selection">
