@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="eff7d1bbcbf95991bae59895539bf8d2e0579932">
+<index version="1" name="ReaperAccessible scripts US" commit="bfb967db4ab0d970fd3ae9dbf8421a1b76f73ceb">
   <category name="DrumAccess">
     <reapack name="ReaperAccessible - DrumAccess - Disable Closed Microphones.lua" type="script" desc="Disable Closed Microphones for DrumAccess">
       <version name="1.1" author="Lee JULIEN for Reaper Accessible" time="2024-09-13T01:36:21Z">
@@ -1362,11 +1362,21 @@
         <changelog><![CDATA[# 2024-09-18 - New script]]></changelog>
         <source main="midi_editor">https://github.com/reaperaccessible/rap_en/raw/eff7d1bbcbf95991bae59895539bf8d2e0579932/MIDI%20Editor/ReaperAccessible%20-%20MIDI%20Editor%20-%20Select%20Next%20Chord.lua</source>
       </version>
+      <version name="1.1" author="Lee JULIEN pour ReaperAccessible augmented by Chessel" time="2026-02-18T17:32:42Z">
+        <changelog><![CDATA[#2026-02-17 - New script
+#2026-02-18 - Bug fix]]></changelog>
+        <source main="midi_editor">https://github.com/reaperaccessible/rap_en/raw/bfb967db4ab0d970fd3ae9dbf8421a1b76f73ceb/MIDI%20Editor/ReaperAccessible%20-%20MIDI%20Editor%20-%20Select%20Next%20Chord.lua</source>
+      </version>
     </reapack>
     <reapack name="ReaperAccessible - MIDI Editor - Select Previous Chord.lua" type="script" desc="Select Previous Chord">
       <version name="1.0" author="Lee JULIEN pour ReaperAccessible augmented by Chessel" time="2026-02-18T04:03:12Z">
         <changelog><![CDATA[# 2024-09-18 - New script]]></changelog>
         <source main="midi_editor">https://github.com/reaperaccessible/rap_en/raw/eff7d1bbcbf95991bae59895539bf8d2e0579932/MIDI%20Editor/ReaperAccessible%20-%20MIDI%20Editor%20-%20Select%20Previous%20Chord.lua</source>
+      </version>
+      <version name="1.1" author="Lee JULIEN pour ReaperAccessible augmented by Chessel" time="2026-02-18T17:32:42Z">
+        <changelog><![CDATA[#2026-02-17 - New script
+#2026-02-18 - Bug fix]]></changelog>
+        <source main="midi_editor">https://github.com/reaperaccessible/rap_en/raw/bfb967db4ab0d970fd3ae9dbf8421a1b76f73ceb/MIDI%20Editor/ReaperAccessible%20-%20MIDI%20Editor%20-%20Select%20Previous%20Chord.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - MIDI Editor - Set grid division via menu.lua" type="script" desc="Set grid division via menu">
