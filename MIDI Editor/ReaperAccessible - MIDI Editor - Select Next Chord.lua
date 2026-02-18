@@ -1,9 +1,10 @@
 -- @description Select Next Chord
--- @version 1.0
+-- @version 1.1
 -- @author Lee JULIEN pour ReaperAccessible augmented by Chessel
 -- @provides [main=midi_editor] .
 -- @changelog
---   # 2024-09-18 - New script
+--   #2026-02-17 - New script
+--   #2026-02-18 - Bug fix
 
 
 local tolerance = 15 
@@ -17,15 +18,18 @@ if not editor then return end
 local take = reaper.MIDIEditor_GetTake(editor)
 if not take or not reaper.TakeIsMIDI(take) then return end
 
+-- Get current cursor position in PPQ
 local currentPos = reaper.MIDI_GetPPQPosFromProjTime(take, reaper.GetCursorPosition())
 local _, noteCount = reaper.MIDI_CountEvts(take)
 local starts = {}
 local groups = {}
 
--- 1. Analyse des positions
+-- 1. Analyze positions (searching forwards)
 for i = 0, noteCount - 1 do
     local _, _, _, s = reaper.MIDI_GetNote(take, i)
+    -- Look for notes AFTER the cursor (with a small 5 PPQ safety margin)
     if s > currentPos + 5 then
+        -- Rounding for tolerance
         local key = math.floor(s / tolerance + 0.5) * tolerance
         if not groups[key] then
             groups[key] = 0
@@ -35,6 +39,7 @@ for i = 0, noteCount - 1 do
     end
 end
 
+-- Sort ascending to find the next chord in time
 table.sort(starts)
 
 local targetStart = nil
@@ -46,36 +51,28 @@ for _, s in ipairs(starts) do
 end
 
 if not targetStart then
-    Announce("Plus aucun accord trouvé")
+    Announce("No more chords found")
     return
 end
 
--- 2. Traitement du Buffer
-local _, buf = reaper.MIDI_GetAllEvts(take, "")
-local newBuf = ""
-local pos = 1
-local runningPPQ = 0
+-- 2. Update Selection
+-- Disable auto-sorting during modification for better performance
+reaper.MIDI_DisableSort(take)
 
-while pos <= #buf do
-    local offset, flags, msg, nextPos = string.unpack("i4Bs4", buf, pos)
-    runningPPQ = runningPPQ + offset
-    if #msg >= 3 then
-        local status = msg:byte(1) >> 4
-        if status == 8 or status == 9 then
-            if math.abs(runningPPQ - targetStart) <= tolerance then
-                flags = flags | 1 
-            else
-                flags = flags & ~1
-            end
-        end
+for i = 0, noteCount - 1 do
+    local _, sel, muted, startppq, endppq, chan, pitch, vel = reaper.MIDI_GetNote(take, i)
+    
+    -- If the note starts within our tolerance zone
+    if math.abs(startppq - targetStart) <= tolerance then
+        reaper.MIDI_SetNote(take, i, true, muted, startppq, endppq, chan, pitch, vel, false)
+    else
+        reaper.MIDI_SetNote(take, i, false, muted, startppq, endppq, chan, pitch, vel, false)
     end
-    newBuf = newBuf .. string.pack("i4Bs4", offset, flags, msg)
-    pos = nextPos
 end
 
-reaper.MIDI_SetAllEvts(take, newBuf)
+-- Re-enable sorting and refresh
 reaper.MIDI_Sort(take)
 reaper.SetEditCurPos(reaper.MIDI_GetProjTimeFromPPQPos(take, targetStart), true, false)
 reaper.UpdateArrange()
 
-Announce("Accord de " .. groups[targetStart] .. " notes sélectionné")
+Announce("Chord with " .. groups[targetStart] .. " notes selected")
