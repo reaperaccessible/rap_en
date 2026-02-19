@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaperAccessible scripts US" commit="bfb967db4ab0d970fd3ae9dbf8421a1b76f73ceb">
+<index version="1" name="ReaperAccessible scripts US" commit="3357c4c3d671582e7b2649a6d8fa81ed8157d57e">
   <category name="DrumAccess">
     <reapack name="ReaperAccessible - DrumAccess - Disable Closed Microphones.lua" type="script" desc="Disable Closed Microphones for DrumAccess">
       <version name="1.1" author="Lee JULIEN for Reaper Accessible" time="2024-09-13T01:36:21Z">
@@ -1271,6 +1271,12 @@
       <version name="1.1" author="Ludovic SANSONE for ReaperAccessible" time="2024-09-18T14:23:47Z">
         <changelog><![CDATA[# 2024-09-18 - Adding log]]></changelog>
         <source main="midi_editor">https://github.com/reaperaccessible/rap_en/raw/25d91a2f4a1dee344167a932d686ab18bc929115/MIDI%20Editor/ReaperAccessible%20-%20MIDI%20Editor%20-%20Add%20note%20between%202%20selected%20notes.lua</source>
+      </version>
+    </reapack>
+    <reapack name="ReaperAccessible - MIDI Editor - Edit Value of All Specific MIDI CC of Selected Item.lua" type="script" desc="Edit Value of All Specific MIDI CC of Selected Item">
+      <version name="1.0" author="Lee JULIEN pour ReaperAccessible augmented by Chessel" time="2026-02-19T00:30:58Z">
+        <changelog><![CDATA[#2026-02-18 - Nouveau script]]></changelog>
+        <source main="midi_editor">https://github.com/reaperaccessible/rap_en/raw/3357c4c3d671582e7b2649a6d8fa81ed8157d57e/MIDI%20Editor/ReaperAccessible%20-%20MIDI%20Editor%20-%20Edit%20Value%20of%20All%20Specific%20MIDI%20CC%20of%20Selected%20Item.lua</source>
       </version>
     </reapack>
     <reapack name="ReaperAccessible - MIDI Editor - Humanize velocity of selected notes via menu.lua" type="script" desc="Humanize velocity of selected notes via menu">
